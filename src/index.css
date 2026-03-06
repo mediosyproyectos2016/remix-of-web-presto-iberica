@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Didact+Gothic&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Presto Ibérica Design System - Premium Faucet & Bath Solutions
+   Inspired by Gessi and Riluxa - Luxury minimalist aesthetic
+   All colors MUST be HSL
+*/
+
+@layer base {
+  :root {
+    /* Core palette - Sophisticated dark with warm accents */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+
+    /* Primary - Pantone 7462C deep blue */
+    --primary: 203 100% 27%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Warm gray */
+    --secondary: 30 5% 96%;
+    --secondary-foreground: 0 0% 15%;
+
+    /* Muted - Soft neutrals */
+    --muted: 30 5% 95%;
+    --muted-foreground: 0 0% 45%;
+
+    /* Accent - Warm bronze/gold */
+    --accent: 35 50% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Brand gold for premium touches */
+    --gold: 40 60% 50%;
+    --gold-light: 40 45% 75%;
+    --gold-dark: 38 55% 35%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 35 50% 45%;
+
+    --radius: 0px;
+
+    /* Hero section */
+    --hero-bg: 0 0% 5%;
+    --hero-overlay: 0 0% 0%;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 25%;
+    --sidebar-primary: 0 0% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 30 5% 96%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 35 50% 45%;
+
+    /* Typography */
+    --font-display: 'Libre Franklin', sans-serif;
+    --font-body: 'Didact Gothic', sans-serif;
+
+    /* Spacing */
+    --section-padding: 6rem;
+    --container-max: 1440px;
+  }
+
+  .dark {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 0 0% 95%;
+    --primary-foreground: 0 0% 8%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 35 50% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 35 50% 50%;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 35 50% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 85%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 35 50% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+
+  /* Selection styling */
+  ::selection {
+    background: hsl(var(--accent) / 0.3);
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer components {
+  /* Premium button variants */
+  .btn-hero {
+    @apply relative inline-flex items-center justify-center px-10 py-4 text-sm font-medium tracking-widest uppercase;
+    @apply border border-white/30 text-white bg-transparent;
+    @apply transition-all duration-500 ease-out;
+    @apply hover:bg-white hover:text-primary hover:border-white;
+    letter-spacing: 0.2em;
+  }
+
+  .btn-primary-elegant {
+    @apply relative inline-flex items-center justify-center px-8 py-3.5 text-xs font-medium tracking-widest uppercase;
+    @apply bg-primary text-primary-foreground border-0;
+    @apply transition-all duration-500 ease-out;
+    @apply hover:bg-accent;
+    letter-spacing: 0.15em;
+  }
+
+  .btn-outline-elegant {
+    @apply relative inline-flex items-center justify-center px-8 py-3.5 text-xs font-medium tracking-widest uppercase;
+    @apply border border-primary text-primary bg-transparent;
+    @apply transition-all duration-500 ease-out;
+    @apply hover:bg-primary hover:text-primary-foreground;
+    letter-spacing: 0.15em;
+  }
+
+  /* Premium section styling */
+  .section-dark {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  .section-light {
+    @apply bg-background text-foreground;
+  }
+
+  /* Elegant underline animation */
+  .link-underline {
+    @apply relative inline-block;
+  }
+
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-px bg-current;
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+
+  /* Hero overlay gradient */
+  .hero-gradient {
+    background: linear-gradient(
+      to bottom,
+      hsl(var(--hero-overlay) / 0.4) 0%,
+      hsl(var(--hero-overlay) / 0.2) 50%,
+      hsl(var(--hero-overlay) / 0.6) 100%
+    );
+  }
+
+  /* Gold accent line */
+  .accent-line {
+    @apply w-16 h-px bg-accent;
+  }
+
+  .accent-line-vertical {
+    @apply h-16 w-px bg-accent;
+  }
+
+  /* Category card hover */
+  .category-card {
+    @apply relative overflow-hidden cursor-pointer;
+  }
+
+  .category-card-overlay {
+    @apply absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent;
+    @apply transition-all duration-700 ease-out;
+  }
+
+  .category-card:hover .category-card-overlay {
+    @apply from-black/90 via-black/40 to-black/10;
+  }
+
+  .category-card-image {
+    @apply w-full h-full object-cover;
+    @apply transition-transform duration-1000 ease-out;
+  }
+
+  .category-card:hover .category-card-image {
+    @apply scale-105;
+  }
+
+  /* Mega menu styling */
+  .mega-menu {
+    @apply fixed top-0 left-0 w-full bg-white shadow-2xl;
+    @apply opacity-0 invisible -translate-y-4;
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .mega-menu.active {
+    @apply opacity-100 visible translate-y-0;
+  }
+
+  /* Premium input styling */
+  .input-elegant {
+    @apply w-full px-0 py-4 bg-transparent border-0 border-b border-border;
+    @apply text-sm tracking-wide placeholder:text-muted-foreground;
+    @apply focus:outline-none focus:border-accent;
+    @apply transition-colors duration-300;
+  }
+
+  /* Fade in animation */
+  .fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Stagger children */
+  .stagger-children > * {
+    @apply fade-in-up;
+  }
+
+  .stagger-children > *:nth-child(1) { animation-delay: 0.1s; }
+  .stagger-children > *:nth-child(2) { animation-delay: 0.2s; }
+  .stagger-children > *:nth-child(3) { animation-delay: 0.3s; }
+  .stagger-children > *:nth-child(4) { animation-delay: 0.4s; }
+  .stagger-children > *:nth-child(5) { animation-delay: 0.5s; }
+
+  /* Parallax container */
+  .parallax-container {
+    @apply relative overflow-hidden;
+  }
+
+  /* Premium scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+}
+
+@layer utilities {
+  /* Text utilities */
+  .text-display {
+    font-family: var(--font-display);
+  }
+
+  .text-body {
+    font-family: var(--font-body);
+  }
+
+  .tracking-luxury {
+    letter-spacing: 0.3em;
+  }
+
+  .tracking-elegant {
+    letter-spacing: 0.15em;
+  }
+
+  /* Container */
+  .container-presto {
+    @apply mx-auto px-6 lg:px-12;
+    max-width: var(--container-max);
+  }
+
+  /* Section padding */
+  .section-py {
+    @apply py-20 lg:py-32;
+  }
+
+  /* Aspect ratios for images */
+  .aspect-product {
+    aspect-ratio: 4/5;
+  }
+
+  .aspect-hero {
+    aspect-ratio: 16/9;
+  }
+
+  .aspect-category {
+    aspect-ratio: 3/4;
+  }
+}
