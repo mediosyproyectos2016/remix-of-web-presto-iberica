@@ -112,6 +112,8 @@ const CatalogosPage = () => {
                   src={catalogoTarifa.image}
                   alt={catalogoTarifa.title}
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="flex-1 text-center md:text-left">
@@ -156,6 +158,8 @@ const CatalogosPage = () => {
                     src={platform.logo}
                     alt={platform.name}
                     className="h-20 md:h-24 w-auto object-contain p-2"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </a>
               ))}
@@ -180,6 +184,8 @@ const CatalogosPage = () => {
                     src={catalogo.image}
                     alt={catalogo.title}
                     className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 

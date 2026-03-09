@@ -78,6 +78,8 @@ export const TechnologiesSection = () => {
                   src={tech.image}
                   alt={tech.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="p-6 lg:p-8">

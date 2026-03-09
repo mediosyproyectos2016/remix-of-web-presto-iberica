@@ -279,7 +279,7 @@ const PrestoCustomPage = () => {
       {/* Hero Section */}
       <section className="relative h-screen min-h-[700px] overflow-hidden">
         <motion.div style={{ y }} className="absolute inset-0">
-          <img src={prestoCustomBg} alt="Presto Exclusive Manufacturing" className="w-full h-[120%] object-cover" />
+          <img src={prestoCustomBg} alt="Presto Exclusive Manufacturing" className="w-full h-[120%] object-cover" loading="eager" decoding="async" />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
         
@@ -476,7 +476,7 @@ const PrestoCustomPage = () => {
                         style={{ backgroundColor: finish.code }}
                       >
                         {(activeCategory === "print" || activeCategory === "color") && finish.image && (
-                          <img src={finish.image} alt={finish.name} className="w-full h-full object-cover" />
+                          <img src={finish.image} alt={finish.name} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                         )}
                       </div>
                       <div className="min-w-0">
@@ -555,6 +555,8 @@ const PrestoCustomPage = () => {
                         src={selectedFinish.productImage} 
                         alt={`Grifo Presto acabado ${selectedFinish.name}`}
                         className="w-full h-full object-cover"
+                        loading="lazy"
+                        decoding="async"
                       />
                     ) : selectedFinish?.image && (activeCategory === "print") ? (
                       <img 

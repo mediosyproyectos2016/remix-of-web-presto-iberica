@@ -349,6 +349,8 @@ export default function ProductsPage() {
                         src={product.image}
                         alt={product.name}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        loading="lazy"
+                        decoding="async"
                       />
                       {product.isNew && (
                         <span className="absolute top-4 left-4 px-3 py-1 bg-primary text-primary-foreground text-xs font-medium tracking-wider uppercase">
@@ -396,11 +398,13 @@ export default function ProductsPage() {
                     to={`/producto/${product.id}`}
                     className="group flex gap-6 p-4 border border-border hover:border-primary transition-colors"
                   >
-                    <div className="w-32 h-32 flex-shrink-0 bg-muted/30 overflow-hidden">
+                     <div className="w-32 h-32 flex-shrink-0 bg-muted/30 overflow-hidden">
                       <img
                         src={product.image}
                         alt={product.name}
                         className="w-full h-full object-cover"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="flex-1 py-2">

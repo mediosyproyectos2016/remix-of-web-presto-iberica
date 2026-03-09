@@ -8,6 +8,8 @@ export const Logo = () => {
         src={logoPresto} 
         alt="Presto" 
         className="h-10 lg:h-11 w-auto object-contain transition-opacity group-hover:opacity-90 brightness-0 invert"
+        loading="eager"
+        decoding="async"
       />
     </Link>
   );
