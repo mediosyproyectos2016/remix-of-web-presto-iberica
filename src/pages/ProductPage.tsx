@@ -128,7 +128,7 @@ const ProductPage = () => {
                       selectedImage === index ? "border-accent" : "border-transparent opacity-60 hover:opacity-100"
                     }`}
                   >
-                    <img src={img} alt={`Vista ${index + 1}`} className="w-full h-full object-cover" />
+                    <img src={img} alt={`Vista ${index + 1}`} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                   </button>
                 ))}
               </div>
@@ -344,6 +344,8 @@ const ProductPage = () => {
                         src={productImages[index % productImages.length]} 
                         alt={product.name}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <p className="text-xs text-muted-foreground tracking-elegant uppercase mb-2">

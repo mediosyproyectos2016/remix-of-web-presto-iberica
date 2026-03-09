@@ -85,6 +85,8 @@ const TechnologiesPage = () => {
           src={techDreamsVisto}
           alt="Tecnologías Presto"
           className="w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
 
@@ -194,6 +196,8 @@ const TechnologiesPage = () => {
                       src={tech.image}
                       alt={tech.title}
                       className="w-full h-full object-cover"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   {/* Stat overlay */}

@@ -88,6 +88,8 @@ const CompanyPage = () => {
             src={heroImage}
             alt="Presto Ibérica"
             className="w-full h-[120%] object-cover"
+            loading="eager"
+            decoding="async"
           />
         </motion.div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
@@ -157,6 +159,8 @@ const CompanyPage = () => {
                   src={factoryImage}
                   alt="Fabricación española Presto Ibérica"
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </motion.div>
@@ -238,6 +242,8 @@ const CompanyPage = () => {
                   src={productionImage} 
                   alt="Producción Presto Ibérica"
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="absolute -bottom-8 -left-8 bg-primary text-primary-foreground p-8 max-w-xs">

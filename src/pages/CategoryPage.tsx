@@ -87,6 +87,8 @@ const CategoryPage = () => {
           src={category.heroImage}
           alt={category.title}
           className="w-full h-full object-cover"
+          loading="eager"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 flex items-end pb-16">
