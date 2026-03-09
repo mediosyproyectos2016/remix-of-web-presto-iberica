@@ -120,6 +120,8 @@ export const Hero = () => {
             src={slide.bgImage}
             alt={slide.title || slide.id}
             className="w-full h-full object-cover"
+            loading="eager"
+            decoding="async"
           />
           {!slide.isStatic && (
             <>
@@ -132,6 +134,8 @@ export const Hero = () => {
                         src={logoPresto}
                         alt="Presto"
                         className="h-12 sm:h-16 md:h-24 mb-4 sm:mb-6 md:mb-8 object-contain mx-auto"
+                        loading="eager"
+                        decoding="async"
                       />
                     )}
                     <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 sm:mb-6 uppercase">

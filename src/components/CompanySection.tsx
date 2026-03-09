@@ -20,6 +20,8 @@ export const CompanySection = () => {
               src={companyFactory}
               alt="Fábrica Presto Ibérica"
               className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/20" />
           </div>

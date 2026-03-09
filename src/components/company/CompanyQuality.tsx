@@ -17,6 +17,8 @@ export const CompanyQuality = () => {
                 src={companyGota}
                 alt="Todo empezó con una gota — Presto Ibérica"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </motion.div>

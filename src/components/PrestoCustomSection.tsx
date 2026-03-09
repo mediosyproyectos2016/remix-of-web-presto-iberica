@@ -13,6 +13,8 @@ export const PrestoCustomSection = () => {
               src={pemSketch}
               alt="Diseño de grifería Presto Exclusive Manufacturing"
               className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 

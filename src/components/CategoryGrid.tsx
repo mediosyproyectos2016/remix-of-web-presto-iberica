@@ -58,6 +58,8 @@ export const CategoryGrid = () => {
                 src={category.image}
                 alt={category.title}
                 className="category-card-image"
+                loading="lazy"
+                decoding="async"
               />
               <div className="category-card-overlay" />
               
