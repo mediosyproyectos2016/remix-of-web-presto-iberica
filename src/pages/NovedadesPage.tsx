@@ -14,6 +14,15 @@ import banoAmbiente3 from "@/assets/inspiracion/bano-ambiente-3.jpg";
 import banoAmbiente4 from "@/assets/inspiracion/bano-ambiente-4.jpg";
 import banoAmbiente6 from "@/assets/inspiracion/bano-ambiente-6.png";
 import banoAmbiente9 from "@/assets/inspiracion/bano-ambiente-9.jpg";
+import banoConicoLavaboMural from "@/assets/inspiracion/bano-conico-lavabo-mural.jpg";
+import bano46500Lavabo from "@/assets/inspiracion/bano-46500-lavabo.jpg";
+import banoArohaLavaboAmbiente from "@/assets/inspiracion/bano-aroha-lavabo-ambiente.jpg";
+import banoChapAmbiente from "@/assets/inspiracion/bano-chap-ambiente.jpg";
+import banoConicoDucha from "@/assets/inspiracion/bano-conico-ducha.jpg";
+import banoDuchaDalma from "@/assets/inspiracion/bano-ducha-dalma.jpg";
+import banoLavaboNegroMural from "@/assets/inspiracion/bano-lavabo-negro-mural.jpg";
+import banoDuchaColumna from "@/assets/inspiracion/bano-ducha-columna.jpg";
+import banoSevenMarmol from "@/assets/inspiracion/bano-seven-marmol.jpg";
 import cocinaKarim from "@/assets/inspiracion/cocina-karim-cromo.png";
 import cocinaOsmo from "@/assets/inspiracion/cocina-osmo.jpg";
 
@@ -79,6 +88,15 @@ const inspiracionBano = [
   { id: "ambiente-4", image: banoAmbiente4, title: "Ducha — Verde negro" },
   { id: "ambiente-6", image: banoAmbiente6, title: "Baño — Piedra natural" },
   { id: "ambiente-9", image: banoAmbiente9, title: "Ducha — Oro cepillado" },
+  { id: "conico-lavabo-mural", image: banoConicoLavaboMural, title: "Cónico — Lavabo mural" },
+  { id: "46500-lavabo", image: bano46500Lavabo, title: "Lavabo — Diseño contemporáneo" },
+  { id: "aroha-lavabo-ambiente", image: banoArohaLavaboAmbiente, title: "Aroha — Lavabo ambiente" },
+  { id: "chap-ambiente", image: banoChapAmbiente, title: "Chap — Ambiente color" },
+  { id: "conico-ducha", image: banoConicoDucha, title: "Cónico — Ducha minimalista" },
+  { id: "ducha-dalma", image: banoDuchaDalma, title: "Dalma — Ducha negro mate" },
+  { id: "lavabo-negro-mural", image: banoLavaboNegroMural, title: "Lavabo — Negro mural" },
+  { id: "ducha-columna", image: banoDuchaColumna, title: "Columna de ducha — Gris piedra" },
+  { id: "seven-marmol", image: banoSevenMarmol, title: "Seven — Mármol negro" },
 ];
 
 const inspiracionCocina = [
