@@ -75,6 +75,10 @@ import ocioXt2000 from "@/assets/inspiracion/ocio-xt2000-niquel.jpg";
 import ocioAmbiente20 from "@/assets/inspiracion/ocio-ambiente-20.png";
 import ocioPrestotem from "@/assets/inspiracion/ocio-prestotem-piscina.jpg";
 import ocioSensao from "@/assets/inspiracion/ocio-sensao-aseos.jpg";
+import ocioInoxLineaNeon from "@/assets/inspiracion/ocio-inox-linea-neon.jpg";
+import ocioCampoFutbolInox from "@/assets/inspiracion/ocio-campo-futbol-inox.jpg";
+import ocioPrestotemPiscina2 from "@/assets/inspiracion/ocio-prestotem-piscina-2.jpg";
+import ocioDomoSensiaMarmol from "@/assets/inspiracion/ocio-domo-sensia-marmol.jpg";
 
 import airelibreDuchaPlaya from "@/assets/inspiracion/airelibre-ducha-playa.jpg";
 import airelibreGranja from "@/assets/inspiracion/airelibre-granja.png";
