@@ -27,6 +27,9 @@ import hotelUrquinaona from "@/assets/casos/hotel-urquinaona.jpg";
 import hotelUshuaia from "@/assets/casos/hotel-ushuaia-ibiza.jpg";
 import hotelVincci from "@/assets/casos/hotel-vincci-sevilla.jpg";
 import playasCosta from "@/assets/casos/playas-costa.jpg";
+import residenciaSotillo from "@/assets/casos/residencia-sotillo.jpg";
+import universidadMurcia from "@/assets/casos/universidad-murcia.jpg";
+import urjcVicalvaro from "@/assets/casos/urjc-vicalvaro.jpg";
 
 export type CasoExito = {
   id: number;
@@ -78,7 +81,7 @@ export const casosExito: CasoExito[] = [
   { id: 39, title: "Ciudad de la Justicia (Barcelona)", image: ciudadJusticia, category: "Centros de alta seguridad" },
   { id: 40, title: "Centro Comercial La Gavia (Madrid)", image: ccLaGavia, category: "Centros de gran tránsito" },
   { id: 41, title: "Complejo deportivo Futbol City – Five (Valencia)", image: cityFive, category: "Centros deportivos" },
-  { id: 42, title: "Universidad de Murcia – Campus El Espinardo", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/universidad-del-espinardo-murcia-new-400x284.jpg", category: "Centros educativos" },
+  { id: 42, title: "Universidad de Murcia – Campus El Espinardo", image: universidadMurcia, category: "Centros educativos" },
   { id: 43, title: "Hotel Balneario de Caldea (Andorra)", image: caldeaAndorra, category: "Centros hoteleros" },
 
   // === GRIFERÍAS GALINDO (únicos) ===
@@ -111,12 +114,12 @@ export const casosExito: CasoExito[] = [
   { id: 68, title: "Centro residencial Taliarte (Las Palmas)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/img_residenciataliarteprotesta_240512_1_Medium-compressed.jpg", category: "Residencias" },
   { id: 69, title: "Residencia de ancianos Orpea Pamplona (Navarra)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/ORPEA-PAMPLONA-vista-01-e1579867946133-400x284.jpg", category: "Residencias" },
   { id: 70, title: "Residencias de ancianos Domusvi (toda España)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/domusvi_albufera_rcia_cd-400x284.jpg", category: "Residencias" },
-  { id: 71, title: "Campus de Vicálvaro de la URJC (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed-400x284.jpg", category: "Centros educativos" },
+  { id: 71, title: "Campus de Vicálvaro de la URJC (Madrid)", image: urjcVicalvaro, category: "Centros educativos" },
   { id: 72, title: "Residencias del Grupo Geriatros", image: geriatros, category: "Residencias" },
   { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: hospitalVirgenPaloma, category: "Centros sanitarios" },
   { id: 74, title: "Hotel Dome (Madrid)", image: hotelDome, category: "Centros hoteleros" },
   { id: 75, title: "El Corte Inglés (Varios centros)", image: elCorteIngles, category: "Centros de gran tránsito" },
-  { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/residencia-sotillo-400x284.jpg", category: "Residencias" },
+  { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: residenciaSotillo, category: "Residencias" },
   { id: 77, title: "Centro polivalente CANF – COCEMFE (Sevilla)", image: canfCocemfe, category: "Residencias" },
   { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: hospitalMacarena, category: "Centros sanitarios" },
 
