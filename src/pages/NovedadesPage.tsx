@@ -152,6 +152,8 @@ const inspiracionEducacion = [
   { id: "educacion-lavabos", image: educacionLavabos, title: "Primaria — Lavabos color" },
   { id: "educacion-mitigeur", image: educacionMitigeur, title: "Secundaria — Lavabos colectivos" },
   { id: "educacion-urinarios", image: educacionUrinarios, title: "Aseos — Urinarios color" },
+  { id: "educacion-elec-1000xl", image: educacionElec1000xl, title: "Colegio — Aseos colectivos color" },
+  { id: "educacion-sensia-lavabos", image: educacionSensiaLavabos, title: "Universidad — Lavabos electrónicos" },
 ];
 
 const inspiracionSeguridad = [
