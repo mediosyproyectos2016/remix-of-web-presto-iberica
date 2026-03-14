@@ -79,6 +79,8 @@ import deportePrestodomPiscina from "@/assets/inspiracion/deporte-prestodom-pisc
 
 import cocinaIndustrial7 from "@/assets/inspiracion/cocina-industrial-7.jpg";
 import cocinaIndustrial8 from "@/assets/inspiracion/cocina-industrial-8.jpg";
+import cocinaIndustrialNueva from "@/assets/inspiracion/cocina-industrial-nueva.jpg";
+import cocinaIndustrialChefMini from "@/assets/inspiracion/cocina-industrial-chef-mini.jpg";
 
 import ocioRioShopping from "@/assets/inspiracion/ocio-rio-shopping.jpg";
 import ocioXt2000 from "@/assets/inspiracion/ocio-xt2000-niquel.jpg";
