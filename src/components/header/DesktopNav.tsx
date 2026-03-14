@@ -67,6 +67,7 @@ const menuItems = [
         title: "Empresa",
         items: [
           { label: "Empresa", href: "/empresa" },
+          { label: "Certificaciones", href: "/certificaciones" },
           { label: "Noticias - Blog", href: "/blog" },
         ],
       },
@@ -97,7 +98,6 @@ const menuItems = [
         items: [
           { label: "Catálogos", href: "/catalogos" },
           { label: "Documentación Técnica", href: "/descargas" },
-          { label: "Certificaciones", href: "/certificaciones" },
         ],
       },
     ],
