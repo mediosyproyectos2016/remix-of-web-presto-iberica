@@ -23,6 +23,10 @@ import hotelDome from "@/assets/casos/hotel-dome.jpg";
 import hotelJazz from "@/assets/casos/hotel-jazz.jpg";
 import hotelReyDonJaime from "@/assets/casos/hotel-rey-don-jaime.jpg";
 import hotelRiberies from "@/assets/casos/hotel-riberies.jpg";
+import hotelUrquinaona from "@/assets/casos/hotel-urquinaona.jpg";
+import hotelUshuaia from "@/assets/casos/hotel-ushuaia-ibiza.jpg";
+import hotelVincci from "@/assets/casos/hotel-vincci-sevilla.jpg";
+import playasCosta from "@/assets/casos/playas-costa.jpg";
 
 export type CasoExito = {
   id: number;
