@@ -93,7 +93,7 @@ export const casosExito: CasoExito[] = [
   { id: 56, title: "Hospital de Don Benito (Cáceres)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2023/11/Hospital-Don-Benito-Villanueva-400x284.jpg", category: "Centros sanitarios" },
   { id: 57, title: "Hospital de Cuenca", image: "https://www.griferiasgalindo.com/wp-content/uploads/2023/11/hspitall-virgen-de-la-luz-400x284.jpg", category: "Centros sanitarios" },
   { id: 58, title: "Hotel Riberies (Lérida)", image: hotelRiberies, category: "Centros hoteleros" },
-  { id: 59, title: "Hotel Rey don Jaime (Castelldefels)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-rey-don-jaime-3-400x284.jpg", category: "Centros hoteleros" },
+  { id: 59, title: "Hotel Rey don Jaime (Castelldefels)", image: hotelReyDonJaime, category: "Centros hoteleros" },
   { id: 60, title: "Hotel Alfa (Barcelona)", image: hotelAlfa, category: "Centros hoteleros" },
   { id: 61, title: "Hotel Vincci La Rábida (Sevilla)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-vincci-sevilla-400x284.jpg", category: "Centros hoteleros" },
   { id: 62, title: "Hotel Urquinaona (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-urquinaona-400x284.jpg", category: "Centros hoteleros" },
