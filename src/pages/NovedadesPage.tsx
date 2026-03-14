@@ -163,6 +163,7 @@ const inspiracionDeportes = [
   { id: "deporte-ambiente-11", image: deporteAmbiente11, title: "Polideportivo — Ducha temporizada" },
   { id: "deporte-ambiente-20", image: deporteAmbiente20, title: "Spa — Ducha mural" },
   { id: "deporte-ambiente-26", image: deporteAmbiente26, title: "Vestuarios — Lavabo acero" },
+  { id: "deporte-prestodom-piscina", image: deportePrestodomPiscina, title: "Piscina — Duchas Prestodom" },
 ];
 
 const inspiracionCocinasIndustriales = [
