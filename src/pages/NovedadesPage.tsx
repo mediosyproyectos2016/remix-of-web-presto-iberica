@@ -134,6 +134,10 @@ const inspiracionTransito = [
   { id: "transito-prestorizon", image: transitoPrestorizon, title: "Prestorizon — Lavabos PrestoEquip" },
   { id: "transito-ambiente-16", image: transitoAmbiente16, title: "Aeropuerto — Electrónica" },
   { id: "transito-ambiente-22", image: transitoAmbiente22, title: "Aseos públicos — Industrial" },
+  { id: "transito-sensia-marmol-negro", image: transitoSensiaMarmolNegro, title: "Sensia — Mármol negro colectivo" },
+  { id: "transito-linea-aeropuerto", image: transitoLineaAeropuerto, title: "Línea — Aeropuerto" },
+  { id: "transito-linea-madera", image: transitoLineaMadera, title: "Línea — Aseos madera" },
+  { id: "transito-sensia-urinarios", image: transitoSensiaUrinarios, title: "Sensia — Urinarios electrónicos" },
 ];
 
 const inspiracionEducacion = [
