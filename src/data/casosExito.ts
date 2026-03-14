@@ -23,7 +23,7 @@ export type CasoExito = {
 
 export const casosExito: CasoExito[] = [
   // === PRESTO IBÉRICA ===
-  { id: 1, title: "Estadio Santiago Bernabéu (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/Santiago-bernabeu-400x284.jpg", category: "Centros deportivos" },
+  { id: 1, title: "Estadio Santiago Bernabéu (Madrid)", image: estadioBernabeu, category: "Centros deportivos" },
   { id: 2, title: "Torre Caleido (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/torre-caleido-400x284.jpg", category: "Centro de oficinas" },
   { id: 3, title: "Aeropuerto de Palma de Mallorca", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/aeropuerto-palma-mallorca-400x284.jpg", category: "Centros de gran tránsito" },
   { id: 4, title: "Aeropuerto de Ibiza", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/aeropuerto_de_ibiza_001-400x284.jpg", category: "Centros de gran tránsito" },
