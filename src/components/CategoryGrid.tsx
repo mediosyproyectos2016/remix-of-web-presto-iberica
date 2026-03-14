@@ -11,7 +11,7 @@ const categories = [
     description: "Tecnologías innovadoras para la gestión eficiente del agua",
     image: ambienteColectividades,
     href: "/griferia-colectividades",
-    subcategories: ["Electrónica", "Temporizada", "Industrial", "Antilegionella"],
+    subcategories: ["Electrónica", "Temporizada", "Hospitalaria y Gerontológica", "Industrial", "Válvulas", "Bastidores", "Antilegionella", "Seguridad"],
   },
   {
     id: "griferia",
@@ -75,7 +75,7 @@ export const CategoryGrid = () => {
                   
                   {/* Subcategories */}
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {category.subcategories.slice(0, 3).map((sub) => (
+                    {category.subcategories.map((sub) => (
                       <span
                         key={sub}
                         className="text-xs px-3 py-1 border border-white/30 rounded-full"
