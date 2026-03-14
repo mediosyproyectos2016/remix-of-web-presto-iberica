@@ -62,6 +62,7 @@ const menuItems = [
         title: "Empresa",
         items: [
           { label: "Empresa", href: "/empresa" },
+          { label: "Certificaciones", href: "/certificaciones" },
           { label: "Noticias - Blog", href: "/blog" },
         ],
       },
