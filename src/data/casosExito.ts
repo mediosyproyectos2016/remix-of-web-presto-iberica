@@ -6,6 +6,13 @@ import caldeaAndorra from "@/assets/casos/caldea-andorra.jpg";
 import elCorteIngles from "@/assets/casos/el-corte-ingles.jpg";
 import hotelArts from "@/assets/casos/hotel-arts-barcelona.jpg";
 import colegioCalasanz from "@/assets/casos/colegio-calasanz-oviedo.jpg";
+import estadioBernabeu from "@/assets/casos/estadio-bernabeu.jpg";
+import hospitalVallHebron from "@/assets/casos/hospital-vall-hebron.jpg";
+import hospitalLaFe from "@/assets/casos/hospital-la-fe.jpg";
+import canfCocemfe from "@/assets/casos/canf-cocemfe-sevilla.jpg";
+import geriatros from "@/assets/casos/geriatros.jpg";
+import hospitalReinaSofia from "@/assets/casos/hospital-reina-sofia.jpg";
+import hospitalSanLuis from "@/assets/casos/hospital-san-luis-palencia.jpg";
 
 export type CasoExito = {
   id: number;
