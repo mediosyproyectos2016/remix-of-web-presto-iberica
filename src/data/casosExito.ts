@@ -20,6 +20,9 @@ import hospitalesNisa from "@/assets/casos/hospitales-nisa.jpg";
 import hotelAlfa from "@/assets/casos/hotel-alfa.jpg";
 import hotelDesPins from "@/assets/casos/hotel-des-pins.jpg";
 import hotelDome from "@/assets/casos/hotel-dome.jpg";
+import hotelJazz from "@/assets/casos/hotel-jazz.jpg";
+import hotelReyDonJaime from "@/assets/casos/hotel-rey-don-jaime.jpg";
+import hotelRiberies from "@/assets/casos/hotel-riberies.jpg";
 
 export type CasoExito = {
   id: number;
@@ -89,13 +92,13 @@ export const casosExito: CasoExito[] = [
   { id: 55, title: "Clínica Mutualia Bilbao (Vizcaya)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2023/11/entrada-clinicamutualia-400x284.jpg", category: "Centros sanitarios" },
   { id: 56, title: "Hospital de Don Benito (Cáceres)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2023/11/Hospital-Don-Benito-Villanueva-400x284.jpg", category: "Centros sanitarios" },
   { id: 57, title: "Hospital de Cuenca", image: "https://www.griferiasgalindo.com/wp-content/uploads/2023/11/hspitall-virgen-de-la-luz-400x284.jpg", category: "Centros sanitarios" },
-  { id: 58, title: "Hotel Riberies (Lérida)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-riberies-400x284.jpg", category: "Centros hoteleros" },
-  { id: 59, title: "Hotel Rey don Jaime (Castelldefels)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-rey-don-jaime-3-400x284.jpg", category: "Centros hoteleros" },
+  { id: 58, title: "Hotel Riberies (Lérida)", image: hotelRiberies, category: "Centros hoteleros" },
+  { id: 59, title: "Hotel Rey don Jaime (Castelldefels)", image: hotelReyDonJaime, category: "Centros hoteleros" },
   { id: 60, title: "Hotel Alfa (Barcelona)", image: hotelAlfa, category: "Centros hoteleros" },
   { id: 61, title: "Hotel Vincci La Rábida (Sevilla)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-vincci-sevilla-400x284.jpg", category: "Centros hoteleros" },
   { id: 62, title: "Hotel Urquinaona (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-urquinaona-400x284.jpg", category: "Centros hoteleros" },
   { id: 63, title: "Hotel Boutique Des Pins (Bedoin, France)", image: hotelDesPins, category: "Centros hoteleros" },
-  { id: 64, title: "Hotel Jazz (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Hotel-Jazz-Barcelona-400x284.jpg", category: "Centros hoteleros" },
+  { id: 64, title: "Hotel Jazz (Barcelona)", image: hotelJazz, category: "Centros hoteleros" },
   { id: 65, title: "Finca Las Marías", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Captura-de-pantalla-2018-06-18-a-las-11.56.09-400x284.png", category: "Viviendas" },
 
   // === PRESTO EQUIP (únicos) ===
