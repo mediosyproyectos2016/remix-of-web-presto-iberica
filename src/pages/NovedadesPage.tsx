@@ -43,6 +43,13 @@ import hotelAmbiente24 from "@/assets/inspiracion/hotel-ambiente-24.jpg";
 import hotelAmbiente25 from "@/assets/inspiracion/hotel-ambiente-25.png";
 import hotelUrinario from "@/assets/inspiracion/hotel-urinario.jpg";
 import hotelRestaurant from "@/assets/inspiracion/hotel-linea-restaurant.jpg";
+import hotelDreamsLavabo from "@/assets/inspiracion/hotel-dreams-lavabo.jpg";
+import hotelDuchaNegra from "@/assets/inspiracion/hotel-ducha-negra.jpg";
+import hotelLineaMadera from "@/assets/inspiracion/hotel-linea-madera.jpg";
+import hotelMatrixMural from "@/assets/inspiracion/hotel-matrix-mural.jpg";
+import hotelSohoElec from "@/assets/inspiracion/hotel-soho-elec.jpg";
+import hotelZipPlusMural from "@/assets/inspiracion/hotel-zip-plus-mural.jpg";
+import hotelZipPlusNegro from "@/assets/inspiracion/hotel-zip-plus-negro.jpg";
 
 import hospitalLavaboAcero from "@/assets/inspiracion/hospital-lavabo-acero.png";
 import hospitalAccesibleVerde from "@/assets/inspiracion/hospital-accesible-verde.png";
