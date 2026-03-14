@@ -88,6 +88,15 @@ const inspiracionBano = [
   { id: "ambiente-4", image: banoAmbiente4, title: "Ducha — Verde negro" },
   { id: "ambiente-6", image: banoAmbiente6, title: "Baño — Piedra natural" },
   { id: "ambiente-9", image: banoAmbiente9, title: "Ducha — Oro cepillado" },
+  { id: "conico-lavabo-mural", image: banoConicoLavaboMural, title: "Cónico — Lavabo mural" },
+  { id: "46500-lavabo", image: bano46500Lavabo, title: "Lavabo — Diseño contemporáneo" },
+  { id: "aroha-lavabo-ambiente", image: banoArohaLavaboAmbiente, title: "Aroha — Lavabo ambiente" },
+  { id: "chap-ambiente", image: banoChapAmbiente, title: "Chap — Ambiente color" },
+  { id: "conico-ducha", image: banoConicoDucha, title: "Cónico — Ducha minimalista" },
+  { id: "ducha-dalma", image: banoDuchaDalma, title: "Dalma — Ducha negro mate" },
+  { id: "lavabo-negro-mural", image: banoLavaboNegroMural, title: "Lavabo — Negro mural" },
+  { id: "ducha-columna", image: banoDuchaColumna, title: "Columna de ducha — Gris piedra" },
+  { id: "seven-marmol", image: banoSevenMarmol, title: "Seven — Mármol negro" },
 ];
 
 const inspiracionCocina = [
