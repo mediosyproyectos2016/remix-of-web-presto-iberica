@@ -6,6 +6,13 @@ import caldeaAndorra from "@/assets/casos/caldea-andorra.jpg";
 import elCorteIngles from "@/assets/casos/el-corte-ingles.jpg";
 import hotelArts from "@/assets/casos/hotel-arts-barcelona.jpg";
 import colegioCalasanz from "@/assets/casos/colegio-calasanz-oviedo.jpg";
+import estadioBernabeu from "@/assets/casos/estadio-bernabeu.jpg";
+import hospitalVallHebron from "@/assets/casos/hospital-vall-hebron.jpg";
+import hospitalLaFe from "@/assets/casos/hospital-la-fe.jpg";
+import canfCocemfe from "@/assets/casos/canf-cocemfe-sevilla.jpg";
+import geriatros from "@/assets/casos/geriatros.jpg";
+import hospitalReinaSofia from "@/assets/casos/hospital-reina-sofia.jpg";
+import hospitalSanLuis from "@/assets/casos/hospital-san-luis-palencia.jpg";
 
 export type CasoExito = {
   id: number;
@@ -16,14 +23,14 @@ export type CasoExito = {
 
 export const casosExito: CasoExito[] = [
   // === PRESTO IBÉRICA ===
-  { id: 1, title: "Estadio Santiago Bernabéu (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/Santiago-bernabeu-400x284.jpg", category: "Centros deportivos" },
+  { id: 1, title: "Estadio Santiago Bernabéu (Madrid)", image: estadioBernabeu, category: "Centros deportivos" },
   { id: 2, title: "Torre Caleido (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/torre-caleido-400x284.jpg", category: "Centro de oficinas" },
   { id: 3, title: "Aeropuerto de Palma de Mallorca", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/aeropuerto-palma-mallorca-400x284.jpg", category: "Centros de gran tránsito" },
   { id: 4, title: "Aeropuerto de Ibiza", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/aeropuerto_de_ibiza_001-400x284.jpg", category: "Centros de gran tránsito" },
   { id: 5, title: "Sede corporativa de REPSOL (Madrid)", image: campusRepsol, category: "Centro de oficinas" },
   { id: 6, title: "Sede corporativa «Distrito C» Telefónica (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/sede-telefonica-400x284.jpg", category: "Centro de oficinas" },
-  { id: 7, title: "Hospital Valle de Hebrón (Barcelona)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/hospital-materno-infantil-vall-dhebron-barcelona-new-400x284.jpg", category: "Centros sanitarios" },
-  { id: 8, title: "Hospital de la Nueva Fe (Valencia)", image: "https://www.prestoiberica.com/wp-content/uploads/2018/07/hospital-la-fe-valencia-new-400x284.jpg", category: "Centros sanitarios" },
+  { id: 7, title: "Hospital Valle de Hebrón (Barcelona)", image: hospitalVallHebron, category: "Centros sanitarios" },
+  { id: 8, title: "Hospital de la Nueva Fe (Valencia)", image: hospitalLaFe, category: "Centros sanitarios" },
   { id: 9, title: "Centro Comercial Oasiz (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/cc-oasiz-400x284.jpg", category: "Centros de gran tránsito" },
   { id: 10, title: "Wizink Center (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/wizinkcenter-400x284.jpg", category: "Centros deportivos" },
   { id: 11, title: "Planta de fabricación Pfizer (México)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/pfizer-400x284.jpeg", category: "Centros de alta seguridad" },
@@ -91,17 +98,19 @@ export const casosExito: CasoExito[] = [
   { id: 69, title: "Residencia de ancianos Orpea Pamplona (Navarra)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/ORPEA-PAMPLONA-vista-01-e1579867946133-400x284.jpg", category: "Residencias" },
   { id: 70, title: "Residencias de ancianos Domusvi (toda España)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/domusvi_albufera_rcia_cd-400x284.jpg", category: "Residencias" },
   { id: 71, title: "Campus de Vicálvaro de la URJC (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed-400x284.jpg", category: "Centros educativos" },
-  { id: 72, title: "Residencias del Grupo Geriatros", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/57-residencias_geriatros-400x284.jpg", category: "Residencias" },
+  { id: 72, title: "Residencias del Grupo Geriatros", image: geriatros, category: "Residencias" },
   { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_4-400x284.jpg", category: "Centros sanitarios" },
   { id: 74, title: "Hotel Dome (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_5-400x284.jpg", category: "Centros hoteleros" },
   { id: 75, title: "El Corte Inglés (Varios centros)", image: elCorteIngles, category: "Centros de gran tránsito" },
   { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/residencia-sotillo-400x284.jpg", category: "Residencias" },
-  { id: 77, title: "Centro polivalente CANF – COCEMFE (Sevilla)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/geriatrico-canf_cocemfe-sevilla-400x284.jpg", category: "Residencias" },
+  { id: 77, title: "Centro polivalente CANF – COCEMFE (Sevilla)", image: canfCocemfe, category: "Residencias" },
   { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/30-hospital-macarena-presto-equip-400x284.jpg", category: "Centros sanitarios" },
 
   // === NUEVOS ===
   { id: 79, title: "Hotel Arts (Barcelona)", image: hotelArts, category: "Centros hoteleros" },
   { id: 80, title: "Colegio Calasanz Loyola (Oviedo)", image: colegioCalasanz, category: "Centros educativos" },
+  { id: 81, title: "Hospital Reina Sofía (Córdoba)", image: hospitalReinaSofia, category: "Centros sanitarios" },
+  { id: 82, title: "Hospital San Luis (Palencia)", image: hospitalSanLuis, category: "Centros sanitarios" },
 ];
 
 export const categoriesProyectos = [
