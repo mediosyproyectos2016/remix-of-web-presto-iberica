@@ -57,6 +57,8 @@ import educacionFluxor from "@/assets/inspiracion/educacion-fluxor-infantil.jpg"
 import educacionLavabos from "@/assets/inspiracion/educacion-lavabos-color.jpg";
 import educacionMitigeur from "@/assets/inspiracion/educacion-mitigeur.jpg";
 import educacionUrinarios from "@/assets/inspiracion/educacion-urinarios-color.png";
+import educacionElec1000xl from "@/assets/inspiracion/educacion-elec-1000xl.jpg";
+import educacionSensiaLavabos from "@/assets/inspiracion/educacion-sensia-lavabos.jpg";
 
 import seguridadAmbiente17 from "@/assets/inspiracion/seguridad-ambiente-17.jpg";
 
