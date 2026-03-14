@@ -119,7 +119,7 @@ export const casosExito: CasoExito[] = [
   { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: hospitalVirgenPaloma, category: "Centros sanitarios" },
   { id: 74, title: "Hotel Dome (Madrid)", image: hotelDome, category: "Centros hoteleros" },
   { id: 75, title: "El Corte Inglés (Varios centros)", image: elCorteIngles, category: "Centros de gran tránsito" },
-  { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/residencia-sotillo-400x284.jpg", category: "Residencias" },
+  { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: residenciaSotillo, category: "Residencias" },
   { id: 77, title: "Centro polivalente CANF – COCEMFE (Sevilla)", image: canfCocemfe, category: "Residencias" },
   { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: hospitalMacarena, category: "Centros sanitarios" },
 
