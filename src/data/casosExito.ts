@@ -13,6 +13,13 @@ import canfCocemfe from "@/assets/casos/canf-cocemfe-sevilla.jpg";
 import geriatros from "@/assets/casos/geriatros.jpg";
 import hospitalReinaSofia from "@/assets/casos/hospital-reina-sofia.jpg";
 import hospitalSanLuis from "@/assets/casos/hospital-san-luis-palencia.jpg";
+import hospitalMostoles from "@/assets/casos/hospital-mostoles.jpg";
+import hospitalMacarena from "@/assets/casos/hospital-macarena.jpg";
+import hospitalVirgenPaloma from "@/assets/casos/hospital-virgen-paloma.jpg";
+import hospitalesNisa from "@/assets/casos/hospitales-nisa.jpg";
+import hotelAlfa from "@/assets/casos/hotel-alfa.jpg";
+import hotelDesPins from "@/assets/casos/hotel-des-pins.jpg";
+import hotelDome from "@/assets/casos/hotel-dome.jpg";
 
 export type CasoExito = {
   id: number;
@@ -84,10 +91,10 @@ export const casosExito: CasoExito[] = [
   { id: 57, title: "Hospital de Cuenca", image: "https://www.griferiasgalindo.com/wp-content/uploads/2023/11/hspitall-virgen-de-la-luz-400x284.jpg", category: "Centros sanitarios" },
   { id: 58, title: "Hotel Riberies (Lérida)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-riberies-400x284.jpg", category: "Centros hoteleros" },
   { id: 59, title: "Hotel Rey don Jaime (Castelldefels)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-rey-don-jaime-3-400x284.jpg", category: "Centros hoteleros" },
-  { id: 60, title: "Hotel Alfa (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-alfa-400x284.jpg", category: "Centros hoteleros" },
+  { id: 60, title: "Hotel Alfa (Barcelona)", image: hotelAlfa, category: "Centros hoteleros" },
   { id: 61, title: "Hotel Vincci La Rábida (Sevilla)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-vincci-sevilla-400x284.jpg", category: "Centros hoteleros" },
   { id: 62, title: "Hotel Urquinaona (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-urquinaona-400x284.jpg", category: "Centros hoteleros" },
-  { id: 63, title: "Hotel Boutique Des Pins (Bedoin, France)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Hotel_Boutique_Des-Pins_France-400x284.jpg", category: "Centros hoteleros" },
+  { id: 63, title: "Hotel Boutique Des Pins (Bedoin, France)", image: hotelDesPins, category: "Centros hoteleros" },
   { id: 64, title: "Hotel Jazz (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Hotel-Jazz-Barcelona-400x284.jpg", category: "Centros hoteleros" },
   { id: 65, title: "Finca Las Marías", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Captura-de-pantalla-2018-06-18-a-las-11.56.09-400x284.png", category: "Viviendas" },
 
@@ -99,18 +106,20 @@ export const casosExito: CasoExito[] = [
   { id: 70, title: "Residencias de ancianos Domusvi (toda España)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/domusvi_albufera_rcia_cd-400x284.jpg", category: "Residencias" },
   { id: 71, title: "Campus de Vicálvaro de la URJC (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed-400x284.jpg", category: "Centros educativos" },
   { id: 72, title: "Residencias del Grupo Geriatros", image: geriatros, category: "Residencias" },
-  { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_4-400x284.jpg", category: "Centros sanitarios" },
-  { id: 74, title: "Hotel Dome (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_5-400x284.jpg", category: "Centros hoteleros" },
+  { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: hospitalVirgenPaloma, category: "Centros sanitarios" },
+  { id: 74, title: "Hotel Dome (Madrid)", image: hotelDome, category: "Centros hoteleros" },
   { id: 75, title: "El Corte Inglés (Varios centros)", image: elCorteIngles, category: "Centros de gran tránsito" },
   { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/residencia-sotillo-400x284.jpg", category: "Residencias" },
   { id: 77, title: "Centro polivalente CANF – COCEMFE (Sevilla)", image: canfCocemfe, category: "Residencias" },
-  { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/30-hospital-macarena-presto-equip-400x284.jpg", category: "Centros sanitarios" },
+  { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: hospitalMacarena, category: "Centros sanitarios" },
 
   // === NUEVOS ===
   { id: 79, title: "Hotel Arts (Barcelona)", image: hotelArts, category: "Centros hoteleros" },
   { id: 80, title: "Colegio Calasanz Loyola (Oviedo)", image: colegioCalasanz, category: "Centros educativos" },
   { id: 81, title: "Hospital Reina Sofía (Córdoba)", image: hospitalReinaSofia, category: "Centros sanitarios" },
   { id: 82, title: "Hospital San Luis (Palencia)", image: hospitalSanLuis, category: "Centros sanitarios" },
+  { id: 83, title: "Hospital Universitario de Móstoles (Madrid)", image: hospitalMostoles, category: "Centros sanitarios" },
+  { id: 84, title: "Hospitales Nisa", image: hospitalesNisa, category: "Centros sanitarios" },
 ];
 
 export const categoriesProyectos = [
