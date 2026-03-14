@@ -66,6 +66,7 @@ import deporteDuchaDreams from "@/assets/inspiracion/deporte-ducha-dreams.jpg";
 import deporteAmbiente11 from "@/assets/inspiracion/deporte-ambiente-11.png";
 import deporteAmbiente20 from "@/assets/inspiracion/deporte-ambiente-20.jpg";
 import deporteAmbiente26 from "@/assets/inspiracion/deporte-ambiente-26.png";
+import deportePrestodomPiscina from "@/assets/inspiracion/deporte-prestodom-piscina.jpg";
 
 import cocinaIndustrial7 from "@/assets/inspiracion/cocina-industrial-7.jpg";
 import cocinaIndustrial8 from "@/assets/inspiracion/cocina-industrial-8.jpg";
@@ -162,6 +163,7 @@ const inspiracionDeportes = [
   { id: "deporte-ambiente-11", image: deporteAmbiente11, title: "Polideportivo — Ducha temporizada" },
   { id: "deporte-ambiente-20", image: deporteAmbiente20, title: "Spa — Ducha mural" },
   { id: "deporte-ambiente-26", image: deporteAmbiente26, title: "Vestuarios — Lavabo acero" },
+  { id: "deporte-prestodom-piscina", image: deportePrestodomPiscina, title: "Piscina — Duchas Prestodom" },
 ];
 
 const inspiracionCocinasIndustriales = [
