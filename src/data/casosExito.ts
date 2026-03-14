@@ -81,7 +81,7 @@ export const casosExito: CasoExito[] = [
   { id: 39, title: "Ciudad de la Justicia (Barcelona)", image: ciudadJusticia, category: "Centros de alta seguridad" },
   { id: 40, title: "Centro Comercial La Gavia (Madrid)", image: ccLaGavia, category: "Centros de gran tránsito" },
   { id: 41, title: "Complejo deportivo Futbol City – Five (Valencia)", image: cityFive, category: "Centros deportivos" },
-  { id: 42, title: "Universidad de Murcia – Campus El Espinardo", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/universidad-del-espinardo-murcia-new-400x284.jpg", category: "Centros educativos" },
+  { id: 42, title: "Universidad de Murcia – Campus El Espinardo", image: universidadMurcia, category: "Centros educativos" },
   { id: 43, title: "Hotel Balneario de Caldea (Andorra)", image: caldeaAndorra, category: "Centros hoteleros" },
 
   // === GRIFERÍAS GALINDO (únicos) ===
