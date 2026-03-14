@@ -114,7 +114,7 @@ export const casosExito: CasoExito[] = [
   { id: 68, title: "Centro residencial Taliarte (Las Palmas)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/img_residenciataliarteprotesta_240512_1_Medium-compressed.jpg", category: "Residencias" },
   { id: 69, title: "Residencia de ancianos Orpea Pamplona (Navarra)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/ORPEA-PAMPLONA-vista-01-e1579867946133-400x284.jpg", category: "Residencias" },
   { id: 70, title: "Residencias de ancianos Domusvi (toda España)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/domusvi_albufera_rcia_cd-400x284.jpg", category: "Residencias" },
-  { id: 71, title: "Campus de Vicálvaro de la URJC (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed-400x284.jpg", category: "Centros educativos" },
+  { id: 71, title: "Campus de Vicálvaro de la URJC (Madrid)", image: urjcVicalvaro, category: "Centros educativos" },
   { id: 72, title: "Residencias del Grupo Geriatros", image: geriatros, category: "Residencias" },
   { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: hospitalVirgenPaloma, category: "Centros sanitarios" },
   { id: 74, title: "Hotel Dome (Madrid)", image: hotelDome, category: "Centros hoteleros" },
