@@ -23,6 +23,10 @@ import hotelDome from "@/assets/casos/hotel-dome.jpg";
 import hotelJazz from "@/assets/casos/hotel-jazz.jpg";
 import hotelReyDonJaime from "@/assets/casos/hotel-rey-don-jaime.jpg";
 import hotelRiberies from "@/assets/casos/hotel-riberies.jpg";
+import hotelUrquinaona from "@/assets/casos/hotel-urquinaona.jpg";
+import hotelUshuaia from "@/assets/casos/hotel-ushuaia-ibiza.jpg";
+import hotelVincci from "@/assets/casos/hotel-vincci-sevilla.jpg";
+import playasCosta from "@/assets/casos/playas-costa.jpg";
 
 export type CasoExito = {
   id: number;
@@ -44,8 +48,8 @@ export const casosExito: CasoExito[] = [
   { id: 9, title: "Centro Comercial Oasiz (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/cc-oasiz-400x284.jpg", category: "Centros de gran tránsito" },
   { id: 10, title: "Wizink Center (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/wizinkcenter-400x284.jpg", category: "Centros deportivos" },
   { id: 11, title: "Planta de fabricación Pfizer (México)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/pfizer-400x284.jpeg", category: "Centros de alta seguridad" },
-  { id: 12, title: "Playas de la costa Española", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/playa-de-el-prat-new-400x284.jpg", category: "Centros de gran tránsito" },
-  { id: 13, title: "Hotel Ushuaia (Ibiza)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/UshuaiaIbizaBeachHotel-400x284.jpg", category: "Centros hoteleros" },
+  { id: 12, title: "Playas de la costa Española", image: playasCosta, category: "Centros de gran tránsito" },
+  { id: 13, title: "Hotel Ushuaia (Ibiza)", image: hotelUshuaia, category: "Centros hoteleros" },
   { id: 14, title: "Naves logísticas Lidl", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/naves-lidl-400x284.jpg", category: "Centro de oficinas" },
   { id: 15, title: "Centros logísticos Amazon España", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/centro-logistico-Amazon-Espana-400x284.jpg", category: "Centro de oficinas" },
   { id: 16, title: "Sede corporativa Grupo Godó (Barcelona)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/Grupo-Godo-524x360-1-400x284.jpg", category: "Centro de oficinas" },
@@ -95,8 +99,8 @@ export const casosExito: CasoExito[] = [
   { id: 58, title: "Hotel Riberies (Lérida)", image: hotelRiberies, category: "Centros hoteleros" },
   { id: 59, title: "Hotel Rey don Jaime (Castelldefels)", image: hotelReyDonJaime, category: "Centros hoteleros" },
   { id: 60, title: "Hotel Alfa (Barcelona)", image: hotelAlfa, category: "Centros hoteleros" },
-  { id: 61, title: "Hotel Vincci La Rábida (Sevilla)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-vincci-sevilla-400x284.jpg", category: "Centros hoteleros" },
-  { id: 62, title: "Hotel Urquinaona (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-urquinaona-400x284.jpg", category: "Centros hoteleros" },
+  { id: 61, title: "Hotel Vincci La Rábida (Sevilla)", image: hotelVincci, category: "Centros hoteleros" },
+  { id: 62, title: "Hotel Urquinaona (Barcelona)", image: hotelUrquinaona, category: "Centros hoteleros" },
   { id: 63, title: "Hotel Boutique Des Pins (Bedoin, France)", image: hotelDesPins, category: "Centros hoteleros" },
   { id: 64, title: "Hotel Jazz (Barcelona)", image: hotelJazz, category: "Centros hoteleros" },
   { id: 65, title: "Finca Las Marías", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Captura-de-pantalla-2018-06-18-a-las-11.56.09-400x284.png", category: "Viviendas" },
