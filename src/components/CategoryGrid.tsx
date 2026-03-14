@@ -15,7 +15,7 @@ const categories = [
   },
   {
     id: "griferia",
-    title: "Grifería Doméstica",
+    title: "Grifería",
     description: "El diseño como valor diferencial para hogares y hoteles exigentes",
     image: ambienteGriferia,
     href: "/griferia",
