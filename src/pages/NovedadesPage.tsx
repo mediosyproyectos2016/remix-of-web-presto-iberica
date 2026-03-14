@@ -175,6 +175,10 @@ const inspiracionOcio = [
   { id: "ocio-ambiente-20", image: ocioAmbiente20, title: "Spa — Duchas colectivas" },
   { id: "ocio-prestotem", image: ocioPrestotem, title: "Piscina — Ducha exterior" },
   { id: "ocio-sensao", image: ocioSensao, title: "Ocio — Aseos diseño" },
+  { id: "ocio-inox-linea-neon", image: ocioInoxLineaNeon, title: "Discoteca — Inox Línea neón" },
+  { id: "ocio-campo-futbol", image: ocioCampoFutbolInox, title: "Estadio — Urinarios inox" },
+  { id: "ocio-prestotem-piscina-2", image: ocioPrestotemPiscina2, title: "Prestotem — Ducha piscina" },
+  { id: "ocio-domo-sensia-marmol", image: ocioDomoSensiaMarmol, title: "Domo Sensia — Urinarios mármol" },
 ];
 
 const inspiracionAireLibre = [
