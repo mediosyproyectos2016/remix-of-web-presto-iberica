@@ -98,7 +98,6 @@ const menuItems = [
         items: [
           { label: "Catálogos", href: "/catalogos" },
           { label: "Documentación Técnica", href: "/descargas" },
-          { label: "Certificaciones", href: "/certificaciones" },
         ],
       },
     ],
