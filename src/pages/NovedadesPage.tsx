@@ -57,6 +57,8 @@ import educacionFluxor from "@/assets/inspiracion/educacion-fluxor-infantil.jpg"
 import educacionLavabos from "@/assets/inspiracion/educacion-lavabos-color.jpg";
 import educacionMitigeur from "@/assets/inspiracion/educacion-mitigeur.jpg";
 import educacionUrinarios from "@/assets/inspiracion/educacion-urinarios-color.png";
+import educacionElec1000xl from "@/assets/inspiracion/educacion-elec-1000xl.jpg";
+import educacionSensiaLavabos from "@/assets/inspiracion/educacion-sensia-lavabos.jpg";
 
 import seguridadAmbiente17 from "@/assets/inspiracion/seguridad-ambiente-17.jpg";
 
@@ -150,6 +152,8 @@ const inspiracionEducacion = [
   { id: "educacion-lavabos", image: educacionLavabos, title: "Primaria — Lavabos color" },
   { id: "educacion-mitigeur", image: educacionMitigeur, title: "Secundaria — Lavabos colectivos" },
   { id: "educacion-urinarios", image: educacionUrinarios, title: "Aseos — Urinarios color" },
+  { id: "educacion-elec-1000xl", image: educacionElec1000xl, title: "Colegio — Aseos colectivos color" },
+  { id: "educacion-sensia-lavabos", image: educacionSensiaLavabos, title: "Universidad — Lavabos electrónicos" },
 ];
 
 const inspiracionSeguridad = [
