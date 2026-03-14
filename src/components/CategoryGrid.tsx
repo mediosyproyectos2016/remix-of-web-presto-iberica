@@ -11,7 +11,7 @@ const categories = [
     description: "Tecnologías innovadoras para la gestión eficiente del agua",
     image: ambienteColectividades,
     href: "/griferia-colectividades",
-    subcategories: ["Electrónica", "Temporizada", "Industrial", "Antilegionella"],
+    subcategories: ["Electrónica", "Temporizada", "Hospitalaria y Gerontológica", "Industrial", "Válvulas", "Bastidores", "Antilegionella", "Seguridad"],
   },
   {
     id: "griferia",
