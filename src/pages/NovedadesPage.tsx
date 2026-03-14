@@ -189,6 +189,8 @@ const inspiracionDeportes = [
 const inspiracionCocinasIndustriales = [
   { id: "cocina-industrial-7", image: cocinaIndustrial7, title: "Cocina profesional — Grifo industrial" },
   { id: "cocina-industrial-8", image: cocinaIndustrial8, title: "Cocina profesional — Fregadero acero" },
+  { id: "cocina-industrial-nueva", image: cocinaIndustrialNueva, title: "Cocina profesional — Grifo ducha industrial" },
+  { id: "cocina-industrial-chef-mini", image: cocinaIndustrialChefMini, title: "Cocina profesional — Chef Mini" },
 ];
 
 const inspiracionOcio = [
