@@ -106,18 +106,20 @@ export const casosExito: CasoExito[] = [
   { id: 70, title: "Residencias de ancianos Domusvi (toda España)", image: "https://www.prestoequip.com/wp-content/uploads/2023/11/domusvi_albufera_rcia_cd-400x284.jpg", category: "Residencias" },
   { id: 71, title: "Campus de Vicálvaro de la URJC (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed-400x284.jpg", category: "Centros educativos" },
   { id: 72, title: "Residencias del Grupo Geriatros", image: geriatros, category: "Residencias" },
-  { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_4-400x284.jpg", category: "Centros sanitarios" },
-  { id: 74, title: "Hotel Dome (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_5-400x284.jpg", category: "Centros hoteleros" },
+  { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: hospitalVirgenPaloma, category: "Centros sanitarios" },
+  { id: 74, title: "Hotel Dome (Madrid)", image: hotelDome, category: "Centros hoteleros" },
   { id: 75, title: "El Corte Inglés (Varios centros)", image: elCorteIngles, category: "Centros de gran tránsito" },
   { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/residencia-sotillo-400x284.jpg", category: "Residencias" },
   { id: 77, title: "Centro polivalente CANF – COCEMFE (Sevilla)", image: canfCocemfe, category: "Residencias" },
-  { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/30-hospital-macarena-presto-equip-400x284.jpg", category: "Centros sanitarios" },
+  { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: hospitalMacarena, category: "Centros sanitarios" },
 
   // === NUEVOS ===
   { id: 79, title: "Hotel Arts (Barcelona)", image: hotelArts, category: "Centros hoteleros" },
   { id: 80, title: "Colegio Calasanz Loyola (Oviedo)", image: colegioCalasanz, category: "Centros educativos" },
   { id: 81, title: "Hospital Reina Sofía (Córdoba)", image: hospitalReinaSofia, category: "Centros sanitarios" },
   { id: 82, title: "Hospital San Luis (Palencia)", image: hospitalSanLuis, category: "Centros sanitarios" },
+  { id: 83, title: "Hospital Universitario de Móstoles (Madrid)", image: hospitalMostoles, category: "Centros sanitarios" },
+  { id: 84, title: "Hospitales Nisa", image: hospitalesNisa, category: "Centros sanitarios" },
 ];
 
 export const categoriesProyectos = [
