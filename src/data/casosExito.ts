@@ -27,6 +27,9 @@ import hotelUrquinaona from "@/assets/casos/hotel-urquinaona.jpg";
 import hotelUshuaia from "@/assets/casos/hotel-ushuaia-ibiza.jpg";
 import hotelVincci from "@/assets/casos/hotel-vincci-sevilla.jpg";
 import playasCosta from "@/assets/casos/playas-costa.jpg";
+import residenciaSotillo from "@/assets/casos/residencia-sotillo.jpg";
+import universidadMurcia from "@/assets/casos/universidad-murcia.jpg";
+import urjcVicalvaro from "@/assets/casos/urjc-vicalvaro.jpg";
 
 export type CasoExito = {
   id: number;
