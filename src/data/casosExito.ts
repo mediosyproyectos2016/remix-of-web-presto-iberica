@@ -20,6 +20,9 @@ import hospitalesNisa from "@/assets/casos/hospitales-nisa.jpg";
 import hotelAlfa from "@/assets/casos/hotel-alfa.jpg";
 import hotelDesPins from "@/assets/casos/hotel-des-pins.jpg";
 import hotelDome from "@/assets/casos/hotel-dome.jpg";
+import hotelJazz from "@/assets/casos/hotel-jazz.jpg";
+import hotelReyDonJaime from "@/assets/casos/hotel-rey-don-jaime.jpg";
+import hotelRiberies from "@/assets/casos/hotel-riberies.jpg";
 
 export type CasoExito = {
   id: number;
