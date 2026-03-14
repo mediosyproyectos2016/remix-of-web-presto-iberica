@@ -43,6 +43,13 @@ import hotelAmbiente24 from "@/assets/inspiracion/hotel-ambiente-24.jpg";
 import hotelAmbiente25 from "@/assets/inspiracion/hotel-ambiente-25.png";
 import hotelUrinario from "@/assets/inspiracion/hotel-urinario.jpg";
 import hotelRestaurant from "@/assets/inspiracion/hotel-linea-restaurant.jpg";
+import hotelDreamsLavabo from "@/assets/inspiracion/hotel-dreams-lavabo.jpg";
+import hotelDuchaNegra from "@/assets/inspiracion/hotel-ducha-negra.jpg";
+import hotelLineaMadera from "@/assets/inspiracion/hotel-linea-madera.jpg";
+import hotelMatrixMural from "@/assets/inspiracion/hotel-matrix-mural.jpg";
+import hotelSohoElec from "@/assets/inspiracion/hotel-soho-elec.jpg";
+import hotelZipPlusMural from "@/assets/inspiracion/hotel-zip-plus-mural.jpg";
+import hotelZipPlusNegro from "@/assets/inspiracion/hotel-zip-plus-negro.jpg";
 
 import hospitalLavaboAcero from "@/assets/inspiracion/hospital-lavabo-acero.png";
 import hospitalAccesibleVerde from "@/assets/inspiracion/hospital-accesible-verde.png";
@@ -142,6 +149,13 @@ const inspiracionHoteles = [
   { id: "hotel-ambiente-25", image: hotelAmbiente25, title: "Baño accesible — Oro" },
   { id: "hotel-urinario", image: hotelUrinario, title: "Urinarios — Electrónica" },
   { id: "hotel-restaurant", image: hotelRestaurant, title: "Restaurante — Cobre mural" },
+  { id: "hotel-dreams-lavabo", image: hotelDreamsLavabo, title: "Dreams — Lavabo inteligente" },
+  { id: "hotel-ducha-negra", image: hotelDuchaNegra, title: "Ducha empotrada — Negro mate" },
+  { id: "hotel-linea-madera", image: hotelLineaMadera, title: "Línea — Aseo madera negro" },
+  { id: "hotel-matrix-mural", image: hotelMatrixMural, title: "Matrix — Lavabo mural verde" },
+  { id: "hotel-soho-elec", image: hotelSohoElec, title: "Soho — Aseos mármol electrónico" },
+  { id: "hotel-zip-plus-mural", image: hotelZipPlusMural, title: "Zip Plus — Lavabo mural cromo" },
+  { id: "hotel-zip-plus-negro", image: hotelZipPlusNegro, title: "Zip Plus — Lavabo alto negro" },
 ];
 
 const inspiracionHospitales = [
