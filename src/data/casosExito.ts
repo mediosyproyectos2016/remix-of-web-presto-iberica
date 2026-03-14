@@ -109,6 +109,8 @@ export const casosExito: CasoExito[] = [
   // === NUEVOS ===
   { id: 79, title: "Hotel Arts (Barcelona)", image: hotelArts, category: "Centros hoteleros" },
   { id: 80, title: "Colegio Calasanz Loyola (Oviedo)", image: colegioCalasanz, category: "Centros educativos" },
+  { id: 81, title: "Hospital Reina Sofía (Córdoba)", image: hospitalReinaSofia, category: "Centros sanitarios" },
+  { id: 82, title: "Hospital San Luis (Palencia)", image: hospitalSanLuis, category: "Centros sanitarios" },
 ];
 
 export const categoriesProyectos = [
