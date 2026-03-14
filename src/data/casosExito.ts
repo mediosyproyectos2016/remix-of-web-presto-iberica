@@ -98,7 +98,7 @@ export const casosExito: CasoExito[] = [
   { id: 61, title: "Hotel Vincci La Rábida (Sevilla)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-vincci-sevilla-400x284.jpg", category: "Centros hoteleros" },
   { id: 62, title: "Hotel Urquinaona (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/hotel-urquinaona-400x284.jpg", category: "Centros hoteleros" },
   { id: 63, title: "Hotel Boutique Des Pins (Bedoin, France)", image: hotelDesPins, category: "Centros hoteleros" },
-  { id: 64, title: "Hotel Jazz (Barcelona)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Hotel-Jazz-Barcelona-400x284.jpg", category: "Centros hoteleros" },
+  { id: 64, title: "Hotel Jazz (Barcelona)", image: hotelJazz, category: "Centros hoteleros" },
   { id: 65, title: "Finca Las Marías", image: "https://www.griferiasgalindo.com/wp-content/uploads/2021/05/Captura-de-pantalla-2018-06-18-a-las-11.56.09-400x284.png", category: "Viviendas" },
 
   // === PRESTO EQUIP (únicos) ===
