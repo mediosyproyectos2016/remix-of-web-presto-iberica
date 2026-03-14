@@ -149,6 +149,13 @@ const inspiracionHoteles = [
   { id: "hotel-ambiente-25", image: hotelAmbiente25, title: "Baño accesible — Oro" },
   { id: "hotel-urinario", image: hotelUrinario, title: "Urinarios — Electrónica" },
   { id: "hotel-restaurant", image: hotelRestaurant, title: "Restaurante — Cobre mural" },
+  { id: "hotel-dreams-lavabo", image: hotelDreamsLavabo, title: "Dreams — Lavabo inteligente" },
+  { id: "hotel-ducha-negra", image: hotelDuchaNegra, title: "Ducha empotrada — Negro mate" },
+  { id: "hotel-linea-madera", image: hotelLineaMadera, title: "Línea — Aseo madera negro" },
+  { id: "hotel-matrix-mural", image: hotelMatrixMural, title: "Matrix — Lavabo mural verde" },
+  { id: "hotel-soho-elec", image: hotelSohoElec, title: "Soho — Aseos mármol electrónico" },
+  { id: "hotel-zip-plus-mural", image: hotelZipPlusMural, title: "Zip Plus — Lavabo mural cromo" },
+  { id: "hotel-zip-plus-negro", image: hotelZipPlusNegro, title: "Zip Plus — Lavabo alto negro" },
 ];
 
 const inspiracionHospitales = [
