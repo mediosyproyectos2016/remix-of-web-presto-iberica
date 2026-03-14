@@ -25,6 +25,13 @@ import banoDuchaColumna from "@/assets/inspiracion/bano-ducha-columna.jpg";
 import banoSevenMarmol from "@/assets/inspiracion/bano-seven-marmol.jpg";
 import cocinaKarim from "@/assets/inspiracion/cocina-karim-cromo.png";
 import cocinaOsmo from "@/assets/inspiracion/cocina-osmo.jpg";
+import cocinaTheoElec from "@/assets/inspiracion/cocina-theo-elec.jpg";
+import cocinaDalma from "@/assets/inspiracion/cocina-dalma.jpg";
+import cocinaKily from "@/assets/inspiracion/cocina-kily.jpg";
+import cocinaNitroPlus from "@/assets/inspiracion/cocina-nitro-plus.jpg";
+import cocinaOsmo2 from "@/assets/inspiracion/cocina-osmo-2.jpg";
+import cocinaArohaCromo from "@/assets/inspiracion/cocina-aroha-cromo.jpg";
+import cocinaPysaCobre from "@/assets/inspiracion/cocina-pysa-cobre.jpg";
 
 import hotelDreams from "@/assets/inspiracion/hotel-dreams.jpg";
 import hotelLineaOr from "@/assets/inspiracion/hotel-linea-or.jpg";
