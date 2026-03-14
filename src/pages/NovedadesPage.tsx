@@ -25,6 +25,13 @@ import banoDuchaColumna from "@/assets/inspiracion/bano-ducha-columna.jpg";
 import banoSevenMarmol from "@/assets/inspiracion/bano-seven-marmol.jpg";
 import cocinaKarim from "@/assets/inspiracion/cocina-karim-cromo.png";
 import cocinaOsmo from "@/assets/inspiracion/cocina-osmo.jpg";
+import cocinaTheoElec from "@/assets/inspiracion/cocina-theo-elec.jpg";
+import cocinaDalma from "@/assets/inspiracion/cocina-dalma.jpg";
+import cocinaKily from "@/assets/inspiracion/cocina-kily.jpg";
+import cocinaNitroPlus from "@/assets/inspiracion/cocina-nitro-plus.jpg";
+import cocinaOsmo2 from "@/assets/inspiracion/cocina-osmo-2.jpg";
+import cocinaArohaCromo from "@/assets/inspiracion/cocina-aroha-cromo.jpg";
+import cocinaPysaCobre from "@/assets/inspiracion/cocina-pysa-cobre.jpg";
 
 import hotelDreams from "@/assets/inspiracion/hotel-dreams.jpg";
 import hotelLineaOr from "@/assets/inspiracion/hotel-linea-or.jpg";
@@ -113,6 +120,13 @@ const inspiracionBano = [
 const inspiracionCocina = [
   { id: "karim-cromo", image: cocinaKarim, title: "Karim Due — Cromo" },
   { id: "osmo", image: cocinaOsmo, title: "Osmo — Cocina cromo" },
+  { id: "theo-elec", image: cocinaTheoElec, title: "Theo — Cocina electrónica" },
+  { id: "dalma-cocina", image: cocinaDalma, title: "Dalma — Negro y oro rosa" },
+  { id: "kily-cocina", image: cocinaKily, title: "Kily — Negro mate" },
+  { id: "nitro-plus", image: cocinaNitroPlus, title: "Nitro Plus — Oro cepillado" },
+  { id: "osmo-2", image: cocinaOsmo2, title: "Osmo — Oro oscuro" },
+  { id: "aroha-cromo", image: cocinaArohaCromo, title: "Aroha — Cromo mármol" },
+  { id: "pysa-cobre", image: cocinaPysaCobre, title: "Pysa — Cobre" },
 ];
 
 const inspiracionHoteles = [
