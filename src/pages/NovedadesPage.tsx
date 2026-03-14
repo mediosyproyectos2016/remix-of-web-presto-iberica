@@ -48,6 +48,10 @@ import transitoDomoSensia from "@/assets/inspiracion/transito-domo-sensia.jpg";
 import transitoPrestorizon from "@/assets/inspiracion/transito-prestorizon.jpg";
 import transitoAmbiente16 from "@/assets/inspiracion/transito-ambiente-16.png";
 import transitoAmbiente22 from "@/assets/inspiracion/transito-ambiente-22.jpg";
+import transitoSensiaMarmolNegro from "@/assets/inspiracion/transito-sensia-marmol-negro.jpg";
+import transitoLineaAeropuerto from "@/assets/inspiracion/transito-linea-aeropuerto.jpg";
+import transitoLineaMadera from "@/assets/inspiracion/transito-linea-madera.jpg";
+import transitoSensiaUrinarios from "@/assets/inspiracion/transito-sensia-urinarios.jpg";
 
 import educacionFluxor from "@/assets/inspiracion/educacion-fluxor-infantil.jpg";
 import educacionLavabos from "@/assets/inspiracion/educacion-lavabos-color.jpg";
