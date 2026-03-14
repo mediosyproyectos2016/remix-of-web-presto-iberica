@@ -48,6 +48,10 @@ import transitoDomoSensia from "@/assets/inspiracion/transito-domo-sensia.jpg";
 import transitoPrestorizon from "@/assets/inspiracion/transito-prestorizon.jpg";
 import transitoAmbiente16 from "@/assets/inspiracion/transito-ambiente-16.png";
 import transitoAmbiente22 from "@/assets/inspiracion/transito-ambiente-22.jpg";
+import transitoSensiaMarmolNegro from "@/assets/inspiracion/transito-sensia-marmol-negro.jpg";
+import transitoLineaAeropuerto from "@/assets/inspiracion/transito-linea-aeropuerto.jpg";
+import transitoLineaMadera from "@/assets/inspiracion/transito-linea-madera.jpg";
+import transitoSensiaUrinarios from "@/assets/inspiracion/transito-sensia-urinarios.jpg";
 
 import educacionFluxor from "@/assets/inspiracion/educacion-fluxor-infantil.jpg";
 import educacionLavabos from "@/assets/inspiracion/educacion-lavabos-color.jpg";
@@ -130,6 +134,10 @@ const inspiracionTransito = [
   { id: "transito-prestorizon", image: transitoPrestorizon, title: "Prestorizon — Lavabos PrestoEquip" },
   { id: "transito-ambiente-16", image: transitoAmbiente16, title: "Aeropuerto — Electrónica" },
   { id: "transito-ambiente-22", image: transitoAmbiente22, title: "Aseos públicos — Industrial" },
+  { id: "transito-sensia-marmol-negro", image: transitoSensiaMarmolNegro, title: "Sensia — Mármol negro colectivo" },
+  { id: "transito-linea-aeropuerto", image: transitoLineaAeropuerto, title: "Línea — Aeropuerto" },
+  { id: "transito-linea-madera", image: transitoLineaMadera, title: "Línea — Aseos madera" },
+  { id: "transito-sensia-urinarios", image: transitoSensiaUrinarios, title: "Sensia — Urinarios electrónicos" },
 ];
 
 const inspiracionEducacion = [
