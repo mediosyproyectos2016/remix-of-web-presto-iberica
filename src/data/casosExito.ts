@@ -1,3 +1,12 @@
+import campusRepsol from "@/assets/casos/campus-repsol.jpg";
+import ciudadJusticia from "@/assets/casos/ciudad-justicia-barcelona.jpg";
+import ccLaGavia from "@/assets/casos/cc-la-gavia.jpg";
+import cityFive from "@/assets/casos/city-five-valencia.jpg";
+import caldeaAndorra from "@/assets/casos/caldea-andorra.jpg";
+import elCorteIngles from "@/assets/casos/el-corte-ingles.jpg";
+import hotelArts from "@/assets/casos/hotel-arts-barcelona.jpg";
+import colegioCalasanz from "@/assets/casos/colegio-calasanz-oviedo.jpg";
+
 export type CasoExito = {
   id: number;
   title: string;
@@ -11,7 +20,7 @@ export const casosExito: CasoExito[] = [
   { id: 2, title: "Torre Caleido (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/torre-caleido-400x284.jpg", category: "Centro de oficinas" },
   { id: 3, title: "Aeropuerto de Palma de Mallorca", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/aeropuerto-palma-mallorca-400x284.jpg", category: "Centros de gran tránsito" },
   { id: 4, title: "Aeropuerto de Ibiza", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/aeropuerto_de_ibiza_001-400x284.jpg", category: "Centros de gran tránsito" },
-  { id: 5, title: "Sede corporativa de REPSOL (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/campus-repsol-new-400x284.jpg", category: "Centro de oficinas" },
+  { id: 5, title: "Sede corporativa de REPSOL (Madrid)", image: campusRepsol, category: "Centro de oficinas" },
   { id: 6, title: "Sede corporativa «Distrito C» Telefónica (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/sede-telefonica-400x284.jpg", category: "Centro de oficinas" },
   { id: 7, title: "Hospital Valle de Hebrón (Barcelona)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/hospital-materno-infantil-vall-dhebron-barcelona-new-400x284.jpg", category: "Centros sanitarios" },
   { id: 8, title: "Hospital de la Nueva Fe (Valencia)", image: "https://www.prestoiberica.com/wp-content/uploads/2018/07/hospital-la-fe-valencia-new-400x284.jpg", category: "Centros sanitarios" },
@@ -45,11 +54,11 @@ export const casosExito: CasoExito[] = [
   { id: 36, title: "Camping Delfín Verde (Gerona)", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/el-delfin-verde-camping-1-400x284.jpg", category: "Centros hoteleros" },
   { id: 37, title: "Aeropuerto de Tenerife Sur", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/aeropuerto-tenerife-sur-400x284.jpg", category: "Centros de gran tránsito" },
   { id: 38, title: "Aeropuerto de Málaga", image: "https://www.prestoiberica.com/wp-content/uploads/2023/10/Aeropuerto-De-Malaga-Costa-del-Sol-AGP-400x284.jpg", category: "Centros de gran tránsito" },
-  { id: 39, title: "Ciudad de la Justicia (Barcelona)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/ciudad-de-la-justicia-barcelona-new-400x284.jpg", category: "Centros de alta seguridad" },
-  { id: 40, title: "Centro Comercial La Gavia (Madrid)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/centro-comercial-la-gavia-madrid-new-400x284.jpg", category: "Centros de gran tránsito" },
-  { id: 41, title: "Complejo deportivo Futbol City – Five (Valencia)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/campo-de-futbol-city-five-valencia-new-400x284.jpg", category: "Centros deportivos" },
+  { id: 39, title: "Ciudad de la Justicia (Barcelona)", image: ciudadJusticia, category: "Centros de alta seguridad" },
+  { id: 40, title: "Centro Comercial La Gavia (Madrid)", image: ccLaGavia, category: "Centros de gran tránsito" },
+  { id: 41, title: "Complejo deportivo Futbol City – Five (Valencia)", image: cityFive, category: "Centros deportivos" },
   { id: 42, title: "Universidad de Murcia – Campus El Espinardo", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/universidad-del-espinardo-murcia-new-400x284.jpg", category: "Centros educativos" },
-  { id: 43, title: "Hotel Balneario de Caldea (Andorra)", image: "https://www.prestoiberica.com/wp-content/uploads/2017/06/balneario-de-caldea-andorra-new-400x284.jpg", category: "Centros hoteleros" },
+  { id: 43, title: "Hotel Balneario de Caldea (Andorra)", image: caldeaAndorra, category: "Centros hoteleros" },
 
   // === GRIFERÍAS GALINDO (únicos) ===
   { id: 44, title: "Hotel Soho Puerto de Santa María (Cádiz)", image: "https://www.griferiasgalindo.com/wp-content/uploads/2023/11/415230505-hotel-soho-cadiz-400x284.jpg", category: "Centros hoteleros" },
@@ -85,10 +94,14 @@ export const casosExito: CasoExito[] = [
   { id: 72, title: "Residencias del Grupo Geriatros", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/57-residencias_geriatros-400x284.jpg", category: "Residencias" },
   { id: 73, title: "Hospital Virgen de la Paloma (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_4-400x284.jpg", category: "Centros sanitarios" },
   { id: 74, title: "Hotel Dome (Madrid)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/unnamed_5-400x284.jpg", category: "Centros hoteleros" },
-  { id: 75, title: "El Corte Inglés (Varios centros)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/el-corte-ingles-guadalajara-400x284.jpg", category: "Centros de gran tránsito" },
+  { id: 75, title: "El Corte Inglés (Varios centros)", image: elCorteIngles, category: "Centros de gran tránsito" },
   { id: 76, title: "Residencia de la Santísima Trinidad (Ávila)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/residencia-sotillo-400x284.jpg", category: "Residencias" },
   { id: 77, title: "Centro polivalente CANF – COCEMFE (Sevilla)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/geriatrico-canf_cocemfe-sevilla-400x284.jpg", category: "Residencias" },
   { id: 78, title: "Hospital Virgen de la Macarena (Sevilla)", image: "https://www.prestoequip.com/wp-content/uploads/2018/01/30-hospital-macarena-presto-equip-400x284.jpg", category: "Centros sanitarios" },
+
+  // === NUEVOS ===
+  { id: 79, title: "Hotel Arts (Barcelona)", image: hotelArts, category: "Centros hoteleros" },
+  { id: 80, title: "Colegio Calasanz Loyola (Oviedo)", image: colegioCalasanz, category: "Centros educativos" },
 ];
 
 export const categoriesProyectos = [
