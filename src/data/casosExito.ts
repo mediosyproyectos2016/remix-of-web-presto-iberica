@@ -13,6 +13,13 @@ import canfCocemfe from "@/assets/casos/canf-cocemfe-sevilla.jpg";
 import geriatros from "@/assets/casos/geriatros.jpg";
 import hospitalReinaSofia from "@/assets/casos/hospital-reina-sofia.jpg";
 import hospitalSanLuis from "@/assets/casos/hospital-san-luis-palencia.jpg";
+import hospitalMostoles from "@/assets/casos/hospital-mostoles.jpg";
+import hospitalMacarena from "@/assets/casos/hospital-macarena.jpg";
+import hospitalVirgenPaloma from "@/assets/casos/hospital-virgen-paloma.jpg";
+import hospitalesNisa from "@/assets/casos/hospitales-nisa.jpg";
+import hotelAlfa from "@/assets/casos/hotel-alfa.jpg";
+import hotelDesPins from "@/assets/casos/hotel-des-pins.jpg";
+import hotelDome from "@/assets/casos/hotel-dome.jpg";
 
 export type CasoExito = {
   id: number;
