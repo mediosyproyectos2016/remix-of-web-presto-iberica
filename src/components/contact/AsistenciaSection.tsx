@@ -138,7 +138,7 @@ export const AsistenciaSection = () => {
             Servicio Técnico
           </h3>
           <p className="text-sm text-primary-foreground/80 text-center mb-2">
-            L a J 7:30 a 15:30h - V 7:30 a 14:00h
+            L a J 7:30 a 17:00h - V 7:30 a 14:00h
           </p>
           <p className="text-xs text-primary-foreground/60 text-center mb-6">
             Horario verano julio-agosto
