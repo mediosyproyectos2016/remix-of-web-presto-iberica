@@ -79,6 +79,8 @@ import deportePrestodomPiscina from "@/assets/inspiracion/deporte-prestodom-pisc
 
 import cocinaIndustrial7 from "@/assets/inspiracion/cocina-industrial-7.jpg";
 import cocinaIndustrial8 from "@/assets/inspiracion/cocina-industrial-8.jpg";
+import cocinaIndustrialNueva from "@/assets/inspiracion/cocina-industrial-nueva.jpg";
+import cocinaIndustrialChefMini from "@/assets/inspiracion/cocina-industrial-chef-mini.jpg";
 
 import ocioRioShopping from "@/assets/inspiracion/ocio-rio-shopping.jpg";
 import ocioXt2000 from "@/assets/inspiracion/ocio-xt2000-niquel.jpg";
@@ -187,6 +189,8 @@ const inspiracionDeportes = [
 const inspiracionCocinasIndustriales = [
   { id: "cocina-industrial-7", image: cocinaIndustrial7, title: "Cocina profesional — Grifo industrial" },
   { id: "cocina-industrial-8", image: cocinaIndustrial8, title: "Cocina profesional — Fregadero acero" },
+  { id: "cocina-industrial-nueva", image: cocinaIndustrialNueva, title: "Cocina profesional — Grifo ducha industrial" },
+  { id: "cocina-industrial-chef-mini", image: cocinaIndustrialChefMini, title: "Cocina profesional — Chef Mini" },
 ];
 
 const inspiracionOcio = [
