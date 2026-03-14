@@ -120,6 +120,13 @@ const inspiracionBano = [
 const inspiracionCocina = [
   { id: "karim-cromo", image: cocinaKarim, title: "Karim Due — Cromo" },
   { id: "osmo", image: cocinaOsmo, title: "Osmo — Cocina cromo" },
+  { id: "theo-elec", image: cocinaTheoElec, title: "Theo — Cocina electrónica" },
+  { id: "dalma-cocina", image: cocinaDalma, title: "Dalma — Negro y oro rosa" },
+  { id: "kily-cocina", image: cocinaKily, title: "Kily — Negro mate" },
+  { id: "nitro-plus", image: cocinaNitroPlus, title: "Nitro Plus — Oro cepillado" },
+  { id: "osmo-2", image: cocinaOsmo2, title: "Osmo — Oro oscuro" },
+  { id: "aroha-cromo", image: cocinaArohaCromo, title: "Aroha — Cromo mármol" },
+  { id: "pysa-cobre", image: cocinaPysaCobre, title: "Pysa — Cobre" },
 ];
 
 const inspiracionHoteles = [
