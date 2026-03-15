@@ -123,56 +123,81 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
     if (!isOpen) setExpandedItem(null);
   }, [isOpen]);
 
-  if (!isOpen) return null;
+  // Lock body scroll when menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
 
   return (
-    <div className="lg:hidden fixed inset-x-0 top-16 bottom-0 z-[60] bg-background">
-      <nav className="h-full overflow-y-auto px-6 py-6">
-        {menuItems.map((item) => {
-          const isExpanded = expandedItem === item.label;
+    <>
+      {/* Backdrop */}
+      {isOpen && (
+        <div
+          className="lg:hidden fixed inset-0 z-[55] bg-black/40"
+          onClick={onClose}
+          aria-hidden="true"
+        />
+      )}
 
-          return (
-            <div key={item.label} className="border-b border-border/50">
-              {item.href ? (
-                <Link
-                  to={item.href}
-                  className="flex items-center justify-between py-4 text-lg font-display text-foreground"
-                  onClick={onClose}
-                >
-                  {item.label}
-                  <ChevronRight className="w-5 h-5 text-muted-foreground" />
-                </Link>
-              ) : (
-                <>
-                  <button
-                    type="button"
-                    onClick={() => setExpandedItem(isExpanded ? null : item.label)}
-                    className="flex items-center justify-between w-full py-4 text-lg font-display text-foreground"
-                    aria-expanded={isExpanded}
-                    aria-controls={`submenu-${item.label}`}
+      {/* Menu panel */}
+      <div
+        className={`lg:hidden fixed inset-x-0 top-16 bottom-0 z-[60] bg-background transform transition-transform duration-300 ease-out ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <nav className="h-full overflow-y-auto overscroll-contain px-6 py-4 -webkit-overflow-scrolling-touch">
+          {menuItems.map((item) => {
+            const isExpanded = expandedItem === item.label;
+
+            return (
+              <div key={item.label} className="border-b border-border/50">
+                {item.href ? (
+                  <Link
+                    to={item.href}
+                    className="flex items-center justify-between py-4 text-base font-display text-foreground active:bg-muted/50 -mx-2 px-2 rounded"
+                    onClick={onClose}
                   >
                     {item.label}
-                    <ChevronDown
-                      className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
-                    />
-                  </button>
+                    <ChevronRight className="w-5 h-5 text-muted-foreground" />
+                  </Link>
+                ) : (
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => setExpandedItem(isExpanded ? null : item.label)}
+                      className="flex items-center justify-between w-full py-4 text-base font-display text-foreground active:bg-muted/50 -mx-2 px-2 rounded"
+                      aria-expanded={isExpanded}
+                      aria-controls={`submenu-${item.label}`}
+                    >
+                      {item.label}
+                      <ChevronDown
+                        className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
+                      />
+                    </button>
 
-                  <div
-                    id={`submenu-${item.label}`}
-                    className="grid transition-[grid-template-rows,opacity] duration-300 ease-out"
-                    style={{ gridTemplateRows: isExpanded ? "1fr" : "0fr", opacity: isExpanded ? 1 : 0 }}
-                  >
-                    <div className="overflow-hidden">
+                    <div
+                      id={`submenu-${item.label}`}
+                      className={`transition-all duration-300 ease-out overflow-hidden ${
+                        isExpanded ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
+                      }`}
+                    >
                       <div className="pb-4">
                         {item.submenu?.map((section) => (
                           <div key={section.title} className="mb-4 pl-4">
                             <h4 className="font-medium text-sm text-primary mb-2">{section.title}</h4>
-                            <ul className="space-y-2 pl-4 border-l border-border/50">
+                            <ul className="space-y-1 pl-4 border-l border-border/50">
                               {section.items.map((subItem) => (
                                 <li key={subItem.label}>
                                   <Link
                                     to={subItem.href}
-                                    className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                                    className="block py-2 text-sm text-muted-foreground hover:text-foreground active:text-foreground transition-colors"
                                     onClick={onClose}
                                   >
                                     {subItem.label}
@@ -184,24 +209,24 @@ export const MobileNav = ({ isOpen, onClose }: MobileNavProps) => {
                         ))}
                       </div>
                     </div>
-                  </div>
-                </>
-              )}
-            </div>
-          );
-        })}
+                  </>
+                )}
+              </div>
+            );
+          })}
 
-        <div className="mt-8 pt-6 border-t border-border">
-          <div className="flex flex-col gap-3 text-sm text-muted-foreground">
-            <a href="tel:+34915782575" className="hover:text-foreground transition-colors">
-              91 578 25 75
-            </a>
-            <a href="mailto:info@prestoiberica.com" className="hover:text-foreground transition-colors">
-              info@prestoiberica.com
-            </a>
+          <div className="mt-8 pt-6 border-t border-border">
+            <div className="flex flex-col gap-4 text-sm text-muted-foreground">
+              <a href="tel:+34915782575" className="flex items-center gap-2 py-2 hover:text-foreground transition-colors">
+                91 578 25 75
+              </a>
+              <a href="mailto:info@prestoiberica.com" className="flex items-center gap-2 py-2 hover:text-foreground transition-colors">
+                info@prestoiberica.com
+              </a>
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
+    </>
   );
 };
