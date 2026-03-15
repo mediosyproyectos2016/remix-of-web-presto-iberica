@@ -219,7 +219,7 @@ const customBenefits = [
   {
     icon: Palette,
     title: "Más de 25 Acabados",
-    description: "Amplia paleta de acabados premium: galvánicos, PVD, lacados y tonos exclusivos."
+    description: "Amplia paleta de acabados premium: galvánicos, lacados y tonos exclusivos."
   },
   {
     icon: Sparkles,
