@@ -72,6 +72,15 @@ import acabadoEsmerizadoAzul from "@/assets/ral/Acabado-Esmerizalo-azul-2.png";
 import acabadoCarbonoClaro from "@/assets/ral/Acabado-carbono-claro-2.png";
 import acabadoCarbono from "@/assets/ral/Acabado-carbono-2.png";
 import acabadoCamaleon from "@/assets/ral/Acabado-Camaleon-2.png";
+import iconCatrina from "@/assets/ral/icon-catrina.jpg";
+import iconCocodrilo from "@/assets/ral/icon-cocodrilo.jpg";
+import iconDalmata from "@/assets/ral/icon-dalmata.jpg";
+import iconEspiral from "@/assets/ral/icon-espiral.jpg";
+import iconFloral from "@/assets/ral/icon-floral.jpg";
+import iconGraffiti from "@/assets/ral/icon-graffiti.jpg";
+import iconSerpiente from "@/assets/ral/icon-serpiente.jpg";
+import iconMadera from "@/assets/ral/icon-madera.jpg";
+import iconMarmolBlanco from "@/assets/ral/icon-marmol-blanco.jpg";
 
 // Laser gallery images
 import laserRosa from "@/assets/ral/laser-rosa.jpg";
