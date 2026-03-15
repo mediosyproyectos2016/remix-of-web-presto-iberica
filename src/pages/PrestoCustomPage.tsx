@@ -72,6 +72,15 @@ import acabadoEsmerizadoAzul from "@/assets/ral/Acabado-Esmerizalo-azul-2.png";
 import acabadoCarbonoClaro from "@/assets/ral/Acabado-carbono-claro-2.png";
 import acabadoCarbono from "@/assets/ral/Acabado-carbono-2.png";
 import acabadoCamaleon from "@/assets/ral/Acabado-Camaleon-2.png";
+import iconCatrina from "@/assets/ral/icon-catrina.jpg";
+import iconCocodrilo from "@/assets/ral/icon-cocodrilo.jpg";
+import iconDalmata from "@/assets/ral/icon-dalmata.jpg";
+import iconEspiral from "@/assets/ral/icon-espiral.jpg";
+import iconFloral from "@/assets/ral/icon-floral.jpg";
+import iconGraffiti from "@/assets/ral/icon-graffiti.jpg";
+import iconSerpiente from "@/assets/ral/icon-serpiente.jpg";
+import iconMadera from "@/assets/ral/icon-madera.jpg";
+import iconMarmolBlanco from "@/assets/ral/icon-marmol-blanco.jpg";
 
 // Laser gallery images
 import laserRosa from "@/assets/ral/laser-rosa.jpg";
@@ -154,24 +163,24 @@ const finishesByCategory: Record<string, Finish[]> = {
   ],
   print: [
     { id: "marmol", name: "Mármol Negro", code: "#1a1a1a", description: "Efecto mármol negro con vetas blancas. Elegancia clásica sobre la superficie del grifo.", image: acabadoMarmol, maintenance: "Paño suave húmedo. Evitar productos abrasivos.", productImage: printMarmolNegroAmbiente },
-    { id: "marmol-blanco", name: "Mármol Blanco", code: "#F0EDE8", description: "Efecto mármol blanco con vetas sutiles. Pureza y sofisticación en cada detalle.", image: acabadoMarmol, maintenance: "Paño suave húmedo.", productImage: printMarmolBlanco },
+    { id: "marmol-blanco", name: "Mármol Blanco", code: "#F0EDE8", description: "Efecto mármol blanco con vetas sutiles. Pureza y sofisticación en cada detalle.", image: iconMarmolBlanco, maintenance: "Paño suave húmedo.", productImage: printMarmolBlanco },
     { id: "panel", name: "Panel Hexagonal", code: "#4A4A4A", description: "Patrón geométrico hexagonal. Diseño contemporáneo y sofisticado.", image: acabadoPanel, maintenance: "Limpieza suave con agua y jabón neutro." },
-    { id: "madera", name: "Madera", code: "#B5651D", description: "Efecto madera natural. Calidez orgánica aplicada sobre la superficie metálica.", image: acabadoMadera, maintenance: "Paño de microfibra húmedo.", productImage: printMadera },
+    { id: "madera", name: "Madera", code: "#B5651D", description: "Efecto madera natural. Calidez orgánica aplicada sobre la superficie metálica.", image: iconMadera, maintenance: "Paño de microfibra húmedo.", productImage: printMadera },
     { id: "esmerizado-azul", name: "Esmerizado Azul", code: "#5B6EAE", description: "Azul esmerizado con textura suave y acabado mate distintivo.", image: acabadoEsmerizadoAzul, maintenance: "Jabón suave diluido en agua." },
     { id: "carbono-claro", name: "Carbono Claro", code: "#B0B0B0", description: "Fibra de carbono en tono claro. Tecnología y diseño en un acabado único.", image: acabadoCarbonoClaro, maintenance: "Paño suave húmedo.", productImage: printCarbonoClaro },
     { id: "carbono", name: "Carbono", code: "#5A5A5A", description: "Fibra de carbono oscuro. Acabado técnico de alto rendimiento.", image: acabadoCarbono, maintenance: "Limpieza suave con agua.", productImage: printCarbono },
     { id: "camaleon", name: "Camaleón", code: "#5B6D8E", description: "Efecto camaleón con degradado de tonos azul-violeta. Acabado iridiscente único.", image: acabadoCamaleon, maintenance: "Paño de microfibra seco." },
-    { id: "catrina", name: "Catrina", code: "#D4317C", description: "Estampado floral tipo catrina mexicana. Arte y color en cada pieza.", image: acabadoCamaleon, maintenance: "Paño suave húmedo.", productImage: printCatrina },
-    { id: "espiral", name: "Espiral", code: "#C8A800", description: "Diseño con espirales en negro y dorado. Carácter único y artesanal.", image: acabadoCarbono, maintenance: "Paño de microfibra seco.", productImage: printEspiral },
-    { id: "floral", name: "Floral", code: "#E8453C", description: "Estampado floral colorido. Frescura y alegría en el diseño del grifo.", image: acabadoPanel, maintenance: "Paño suave húmedo.", productImage: printFloral },
-    { id: "graffiti", name: "Graffiti", code: "#FF4500", description: "Arte urbano sobre la grifería. Explosión de color y creatividad.", image: acabadoCamaleon, maintenance: "Paño suave húmedo.", productImage: printGraffiti },
+    { id: "catrina", name: "Catrina", code: "#D4317C", description: "Estampado floral tipo catrina mexicana. Arte y color en cada pieza.", image: iconCatrina, maintenance: "Paño suave húmedo.", productImage: printCatrina },
+    { id: "espiral", name: "Espiral", code: "#C8A800", description: "Diseño con espirales en negro y dorado. Carácter único y artesanal.", image: iconEspiral, maintenance: "Paño de microfibra seco.", productImage: printEspiral },
+    { id: "floral", name: "Floral", code: "#E8453C", description: "Estampado floral colorido. Frescura y alegría en el diseño del grifo.", image: iconFloral, maintenance: "Paño suave húmedo.", productImage: printFloral },
+    { id: "graffiti", name: "Graffiti", code: "#FF4500", description: "Arte urbano sobre la grifería. Explosión de color y creatividad.", image: iconGraffiti, maintenance: "Paño suave húmedo.", productImage: printGraffiti },
     { id: "tornasolado", name: "Tornasolado", code: "#6B4C8A", description: "Acabado tornasolado con reflejos violeta-azul. Efecto cambiante según la luz.", image: acabadoEsmerizadoAzul, maintenance: "Paño de microfibra seco.", productImage: printTornasolado },
-    { id: "serpiente", name: "Serpiente", code: "#8B7355", description: "Textura piel de serpiente. Acabado exótico y atrevido.", image: acabadoMadera, maintenance: "Paño suave húmedo.", productImage: printSerpiente },
-    { id: "animal", name: "Animal Print", code: "#C8A45A", description: "Estampado animal leopardo. Diseño salvaje y sofisticado.", image: acabadoMadera, maintenance: "Paño suave húmedo.", productImage: printAnimal },
+    { id: "serpiente", name: "Serpiente", code: "#8B7355", description: "Textura piel de serpiente. Acabado exótico y atrevido.", image: iconSerpiente, maintenance: "Paño suave húmedo.", productImage: printSerpiente },
+    { id: "animal", name: "Animal Print", code: "#C8A45A", description: "Estampado animal leopardo. Diseño salvaje y sofisticado.", image: iconCocodrilo, maintenance: "Paño suave húmedo.", productImage: printAnimal },
     { id: "art-deco", name: "Art Decó", code: "#C9A84C", description: "Motivos florales Art Decó en oro y negro. Elegancia clásica reinventada.", image: acabadoCamaleon, maintenance: "Paño de microfibra seco.", productImage: printArtDeco },
     { id: "esmerizado", name: "Esmerizado", code: "#5B6EAE", description: "Acabado esmerizado liso en tono azul intenso. Superficie mate uniforme.", image: acabadoEsmerizadoAzul, maintenance: "Paño suave húmedo.", productImage: printEsmerizado },
-    { id: "animal-multi", name: "Animal Collection", code: "#8B6914", description: "Colección animal print: zebra, leopardo, serpiente y tigre. Naturaleza salvaje en la grifería.", image: acabadoMadera, maintenance: "Paño suave húmedo.", productImage: printAnimalMulti },
-    { id: "dalmata", name: "Dálmata", code: "#FFFFFF", description: "Estampado dálmata blanco y negro. Diseño divertido y atrevido.", image: acabadoPanel, maintenance: "Paño suave húmedo.", productImage: printDalmata },
+    { id: "animal-multi", name: "Animal Collection", code: "#8B6914", description: "Colección animal print: zebra, leopardo, serpiente y tigre. Naturaleza salvaje en la grifería.", image: iconCocodrilo, maintenance: "Paño suave húmedo.", productImage: printAnimalMulti },
+    { id: "dalmata", name: "Dálmata", code: "#FFFFFF", description: "Estampado dálmata blanco y negro. Diseño divertido y atrevido.", image: iconDalmata, maintenance: "Paño suave húmedo.", productImage: printDalmata },
   ],
   laser: [
     { id: "laser-grabado", name: "Grabado láser", code: "#848789", description: "Técnica láser que permite realizar un grabado en un área del grifo, un diseño individual con toque muy personal.", image: productHero, maintenance: "Paño de microfibra seco.", productImage: laserRosa, gallery: [laserRosa, laserRock, laserRocket, laserIdentity, laserAgua, laserNamaste, laserDaisa] },
