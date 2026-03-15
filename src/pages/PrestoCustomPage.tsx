@@ -230,7 +230,7 @@ const customBenefits = [
   {
     icon: Shield,
     title: "Máxima Durabilidad",
-    description: "Acabados con resistencia mecánica única y garantía extendida de 15 años."
+    description: "Acabados con resistencia mecánica única y garantía extendida de 3 años."
   },
 ];
 
