@@ -118,10 +118,11 @@ export const Hero = () => {
         >
           <img
             src={slide.bgImage}
-            alt={slide.title || slide.id}
+            alt={`Presto Ibérica - ${slide.title}`}
             className="w-full h-full object-cover"
-            loading="eager"
+            loading={current === 0 ? "eager" : "lazy"}
             decoding="async"
+            fetchPriority={current === 0 ? "high" : "auto"}
           />
           {!slide.isStatic && (
             <>

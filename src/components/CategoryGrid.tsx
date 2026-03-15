@@ -56,7 +56,7 @@ export const CategoryGrid = () => {
             >
               <img
                 src={category.image}
-                alt={category.title}
+                alt={`${category.title} - ${category.description}`}
                 className="category-card-image"
                 loading="lazy"
                 decoding="async"
