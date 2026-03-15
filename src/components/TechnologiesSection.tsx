@@ -73,7 +73,7 @@ export const TechnologiesSection = () => {
               to={tech.href}
               className="group relative overflow-hidden bg-background"
             >
-              <div className="aspect-[16/10] overflow-hidden">
+              <div className={`overflow-hidden ${tech.id === 'healthcover' ? 'aspect-square' : 'aspect-[16/10]'}`}>
                 <img
                   src={tech.image}
                   alt={tech.title}
