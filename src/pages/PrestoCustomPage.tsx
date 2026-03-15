@@ -411,11 +411,6 @@ const PrestoCustomPage = () => {
                 }`}
               >
                 <span className="font-display text-lg">{category.name}</span>
-                <span className={`text-[10px] tracking-luxury uppercase mt-1 ${
-                  activeCategory === category.id ? "text-primary-foreground/70" : "text-muted-foreground"
-                }`}>
-                  {category.label}
-                </span>
               </motion.button>
             ))}
           </div>
