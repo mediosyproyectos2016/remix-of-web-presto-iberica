@@ -187,7 +187,7 @@ const finishesByCategory: Record<string, Finish[]> = {
   ],
 };
 
-const defaultFinishes = finishesByCategory.color;
+const defaultFinishes = finishesByCategory.metales;
 
 // Servicios PEM según documento
 const pemServices = [
