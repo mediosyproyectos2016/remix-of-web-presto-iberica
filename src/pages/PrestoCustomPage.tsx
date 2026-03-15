@@ -88,6 +88,7 @@ import faucetRal2002b from "@/assets/ral/faucet-ral-2002b.png";
 import faucetRal2007 from "@/assets/ral/faucet-ral-2007.png";
 import faucetRal4005 from "@/assets/ral/faucet-ral-4005.png";
 import faucetRal5017 from "@/assets/ral/faucet-ral-5017.png";
+import faucetRal5024 from "@/assets/ral/faucet-ral-5024.png";
 import faucetRal6027 from "@/assets/ral/faucet-ral-6027.png";
 import faucetRal8003 from "@/assets/ral/faucet-ral-8003.jpg";
 import faucetMulticolor from "@/assets/ral/faucet-multicolor.jpg";
