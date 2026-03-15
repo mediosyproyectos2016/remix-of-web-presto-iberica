@@ -27,7 +27,7 @@ const categories = [
     description: "Diseño accesible con seguridad, confort y estética",
     image: ambienteAyudas,
     href: "/ayudas-tecnicas",
-    subcategories: ["Barras de Apoyo", "Sanitarios PMR", "Equipamientos"],
+    subcategories: ["Barras de Apoyo", "Sanitarios PMR", "Sanitarios Inox", "Accesorios", "Equipos Emergencia", "Equipamientos Especializados"],
   },
 ];
 
