@@ -138,6 +138,7 @@ const finishCategories = [
 const finishesByCategory: Record<string, Finish[]> = {
   color: [
     { id: "ral-1004-c", name: "RAL 1004", code: "#E1A100", description: "Amarillo oro. Acabado de alta resistencia y brillo uniforme.", image: ral1004c, maintenance: "Paño suave húmedo. Evitar frotar con fuerza.", productImage: faucetRal1004 },
+    { id: "ral-1018-c", name: "RAL 1018", code: "#F0D000", description: "Amarillo zinc. Tono vibrante y luminoso.", image: ral1004c, maintenance: "Paño suave húmedo.", productImage: faucetRal1018 },
     { id: "ral-2002-c", name: "RAL 2002", code: "#C63927", description: "Rojo bermellón. Intensidad y carácter en acabado.", image: ral2002c, maintenance: "Esponja blanca con jabón suave.", productImage: faucetRal2002b },
     { id: "ral-2007-c", name: "RAL 2007", code: "#FF8200", description: "Naranja luminoso. Energía y creatividad en acabado.", image: ral2007c, maintenance: "Jabón líquido diluido en agua.", productImage: faucetRal2007 },
     { id: "ral-4005-c", name: "RAL 4005", code: "#8B6FAC", description: "Lila azulado. Personalidad única en acabado.", image: ral4005c, maintenance: "Paño de microfibra seco.", productImage: faucetRal4005 },
