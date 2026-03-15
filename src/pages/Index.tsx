@@ -6,10 +6,16 @@ import { TechnologiesSection } from "@/components/TechnologiesSection";
 import { CompanySection } from "@/components/CompanySection";
 import { Newsletter } from "@/components/Newsletter";
 import { Footer } from "@/components/Footer";
+import { SEOHead } from "@/components/SEOHead";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Presto Ibérica | Grifería Profesional y Doméstica desde 1979"
+        description="Fabricante español de grifería profesional para colectividades, grifería doméstica y ayudas técnicas. Tecnología, diseño y sostenibilidad desde 1979."
+        canonical="https://www.prestoiberica.com/"
+      />
       <Header />
       <main>
         <Hero />

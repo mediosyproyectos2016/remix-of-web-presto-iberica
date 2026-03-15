@@ -76,7 +76,7 @@ export const TechnologiesSection = () => {
               <div className={`overflow-hidden ${tech.id === 'healthcover' ? 'aspect-square' : 'aspect-[16/10]'}`}>
                 <img
                   src={tech.image}
-                  alt={tech.title}
+                  alt={`Tecnología ${tech.title} Presto - ${tech.subtitle}`}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
                   decoding="async"
