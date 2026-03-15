@@ -655,7 +655,7 @@ const PrestoCustomPage = () => {
                   "Brillo excepcional duradero",
                   "Resistencia a corrosión y manchas",
                   "Acabados exclusivos artesanales",
-                  "Garantía extendida de 15 años"
+                  "Garantía extendida de 3 años"
                 ].map((item, index) => (
                   <motion.li
                     key={index}
