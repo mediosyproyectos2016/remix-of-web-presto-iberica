@@ -10,6 +10,7 @@ import finishGold from "@/assets/acabados-luxcover.jpg";
 import finishNickel from "@/assets/finish-nickel.jpg";
 import productHero from "@/assets/product-hero-faucet.jpg";
 import pemMetales from "@/assets/pem-metales.png";
+import faucetCromo from "@/assets/ral/faucet-cromo.jpg";
 import productBlack from "@/assets/product-black-faucet.jpg";
 import faucetOroRosa from "@/assets/ral/faucet-oro-rosa.jpg";
 import faucetCobreEnvejecido from "@/assets/ral/faucet-cobre-envejecido.jpg";
