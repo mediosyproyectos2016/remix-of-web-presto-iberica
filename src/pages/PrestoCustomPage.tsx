@@ -135,18 +135,18 @@ const finishCategories = [
 
 const finishesByCategory: Record<string, Finish[]> = {
   color: [
-    { id: "ral-1004-c", name: "RAL 1004", code: "#E1A100", description: "Amarillo oro. Acabado PVD de alta resistencia y brillo uniforme.", image: ral1004c, maintenance: "Paño suave húmedo. Evitar frotar con fuerza.", productImage: faucetRal1004 },
-    { id: "ral-2002-c", name: "RAL 2002", code: "#C63927", description: "Rojo bermellón. Intensidad y carácter en acabado PVD.", image: ral2002c, maintenance: "Esponja blanca con jabón suave.", productImage: faucetRal2002b },
-    { id: "ral-2007-c", name: "RAL 2007", code: "#FF8200", description: "Naranja luminoso. Energía y creatividad en acabado PVD.", image: ral2007c, maintenance: "Jabón líquido diluido en agua.", productImage: faucetRal2007 },
-    { id: "ral-4005-c", name: "RAL 4005", code: "#8B6FAC", description: "Lila azulado. Personalidad única en acabado PVD.", image: ral4005c, maintenance: "Paño de microfibra seco.", productImage: faucetRal4005 },
-    { id: "ral-5017-c", name: "RAL 5017", code: "#1A5784", description: "Azul tráfico. Tono profundo y elegante en acabado PVD.", image: ral5017c, maintenance: "Limpieza suave con agua.", productImage: faucetRal5017 },
-    { id: "ral-5024-c", name: "RAL 5024", code: "#8DAFC4", description: "Azul pastel. Tono suave y elegante en acabado PVD.", image: ral5017c, maintenance: "Paño suave húmedo.", productImage: faucetRal5024 },
-    { id: "ral-6027-c", name: "RAL 6027", code: "#7AADAA", description: "Verde turquesa claro. Frescura y sofisticación en PVD.", image: ral6027c, maintenance: "Paño suave húmedo.", productImage: faucetRal6027 },
-    { id: "ral-6037-c", name: "RAL 6037", code: "#2D8930", description: "Verde puro. Color vibrante y natural en acabado PVD.", image: ral6037c, maintenance: "Jabón suave diluido en agua.", productImage: faucetRal6037 },
-    { id: "ral-7045-c", name: "RAL 7045", code: "#8E929B", description: "Gris telegris. Acabado neutro y elegante en PVD.", image: ral7045c, maintenance: "Paño de microfibra húmedo.", productImage: faucetRal7045 },
-    { id: "ral-8003-c", name: "RAL 8003", code: "#7B5B3A", description: "Marrón arcilla. Tono cálido y natural en acabado PVD.", image: ral8003c, maintenance: "Limpieza suave con agua y jabón neutro.", productImage: faucetRal8003b },
-    { id: "ral-9016-c", name: "RAL Blanco", code: "#F1F0EA", description: "Blanco tráfico. Pureza y luminosidad en acabado PVD.", image: ral9016c, maintenance: "Paño suave húmedo.", productImage: faucetRal9016 },
-    { id: "ral-9005-c", name: "RAL Negro", code: "#0E0E10", description: "Negro intenso. Elegancia y sofisticación en acabado PVD.", image: ral9005c, maintenance: "Paño de microfibra seco.", productImage: faucetRal9005 },
+    { id: "ral-1004-c", name: "RAL 1004", code: "#E1A100", description: "Amarillo oro. Acabado de alta resistencia y brillo uniforme.", image: ral1004c, maintenance: "Paño suave húmedo. Evitar frotar con fuerza.", productImage: faucetRal1004 },
+    { id: "ral-2002-c", name: "RAL 2002", code: "#C63927", description: "Rojo bermellón. Intensidad y carácter en acabado.", image: ral2002c, maintenance: "Esponja blanca con jabón suave.", productImage: faucetRal2002b },
+    { id: "ral-2007-c", name: "RAL 2007", code: "#FF8200", description: "Naranja luminoso. Energía y creatividad en acabado.", image: ral2007c, maintenance: "Jabón líquido diluido en agua.", productImage: faucetRal2007 },
+    { id: "ral-4005-c", name: "RAL 4005", code: "#8B6FAC", description: "Lila azulado. Personalidad única en acabado.", image: ral4005c, maintenance: "Paño de microfibra seco.", productImage: faucetRal4005 },
+    { id: "ral-5017-c", name: "RAL 5017", code: "#1A5784", description: "Azul tráfico. Tono profundo y elegante.", image: ral5017c, maintenance: "Limpieza suave con agua.", productImage: faucetRal5017 },
+    { id: "ral-5024-c", name: "RAL 5024", code: "#8DAFC4", description: "Azul pastel. Tono suave y elegante.", image: ral5017c, maintenance: "Paño suave húmedo.", productImage: faucetRal5024 },
+    { id: "ral-6027-c", name: "RAL 6027", code: "#7AADAA", description: "Verde turquesa claro. Frescura y sofisticación.", image: ral6027c, maintenance: "Paño suave húmedo.", productImage: faucetRal6027 },
+    { id: "ral-6037-c", name: "RAL 6037", code: "#2D8930", description: "Verde puro. Color vibrante y natural.", image: ral6037c, maintenance: "Jabón suave diluido en agua.", productImage: faucetRal6037 },
+    { id: "ral-7045-c", name: "RAL 7045", code: "#8E929B", description: "Gris telegris. Acabado neutro y elegante.", image: ral7045c, maintenance: "Paño de microfibra húmedo.", productImage: faucetRal7045 },
+    { id: "ral-8003-c", name: "RAL 8003", code: "#7B5B3A", description: "Marrón arcilla. Tono cálido y natural.", image: ral8003c, maintenance: "Limpieza suave con agua y jabón neutro.", productImage: faucetRal8003b },
+    { id: "ral-9016-c", name: "RAL Blanco", code: "#F1F0EA", description: "Blanco tráfico. Pureza y luminosidad.", image: ral9016c, maintenance: "Paño suave húmedo.", productImage: faucetRal9016 },
+    { id: "ral-9005-c", name: "RAL Negro", code: "#0E0E10", description: "Negro intenso. Elegancia y sofisticación.", image: ral9005c, maintenance: "Paño de microfibra seco.", productImage: faucetRal9005 },
     { id: "ral-multi-c", name: "RAL Multicolor", code: "#FFD700", description: "Combinación multicolor. Personalización sin límites mezclando varios colores RAL en una misma pieza.", image: ralMulticolorc, maintenance: "Paño suave húmedo.", productImage: faucetMulticolor },
   ],
   print: [
@@ -219,7 +219,7 @@ const customBenefits = [
   {
     icon: Palette,
     title: "Más de 25 Acabados",
-    description: "Amplia paleta de acabados premium: galvánicos, PVD, lacados y tonos exclusivos."
+    description: "Amplia paleta de acabados premium: galvánicos, lacados y tonos exclusivos."
   },
   {
     icon: Sparkles,
@@ -229,7 +229,7 @@ const customBenefits = [
   {
     icon: Shield,
     title: "Máxima Durabilidad",
-    description: "Acabados PVD con resistencia mecánica única y garantía extendida de 15 años."
+    description: "Acabados con resistencia mecánica única y garantía extendida de 15 años."
   },
 ];
 
