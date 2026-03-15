@@ -84,6 +84,7 @@ import laserDaisa from "@/assets/ral/laser-daisa.jpg";
 
 // Faucet product photos per RAL
 import faucetRal1004 from "@/assets/ral/faucet-ral-1004.jpg";
+import faucetRal1018 from "@/assets/ral/faucet-ral-1018.png";
 import faucetRal2002 from "@/assets/ral/faucet-ral-2002.png";
 import faucetRal2002b from "@/assets/ral/faucet-ral-2002b.png";
 import faucetRal2007 from "@/assets/ral/faucet-ral-2007.png";
