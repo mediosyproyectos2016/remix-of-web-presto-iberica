@@ -111,28 +111,24 @@ interface Finish {
 // Categorías actualizadas según documento PEM
 const finishCategories = [
   { 
+    id: "metales", 
+    name: "Metales", 
+    description: "Acabados metálicos de alta resistencia. Sustituye la terminación YY de la referencia de producto seleccionado por el código de metal elegido." 
+  },
+  { 
     id: "color", 
     name: "Color", 
-    label: "PVD",
     description: "Combinaciones para pintar las piezas con colores planos o degradados usando la carta de colores RAL. Máximo rendimiento y calidad técnica." 
   },
   { 
     id: "print", 
     name: "Print", 
-    label: "FRÍOS",
     description: "Técnica de impresión que fija cualquier motivo a la superficie del grifo. Personalización sin límites." 
   },
   { 
     id: "laser", 
     name: "Láser", 
-    label: "CÁLIDOS",
     description: "Técnica láser que permite realizar un grabado en un área del grifo, un diseño individual con toque muy personal." 
-  },
-  { 
-    id: "metales", 
-    name: "Metales", 
-    label: "PVD / GALVÁNICO",
-    description: "Acabados metálicos de alta resistencia. Sustituye la terminación YY de la referencia de producto seleccionado por el código de metal elegido." 
   },
 ];
 
