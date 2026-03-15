@@ -88,6 +88,7 @@ import faucetRal2002b from "@/assets/ral/faucet-ral-2002b.png";
 import faucetRal2007 from "@/assets/ral/faucet-ral-2007.png";
 import faucetRal4005 from "@/assets/ral/faucet-ral-4005.png";
 import faucetRal5017 from "@/assets/ral/faucet-ral-5017.png";
+import faucetRal5024 from "@/assets/ral/faucet-ral-5024.png";
 import faucetRal6027 from "@/assets/ral/faucet-ral-6027.png";
 import faucetRal8003 from "@/assets/ral/faucet-ral-8003.jpg";
 import faucetMulticolor from "@/assets/ral/faucet-multicolor.jpg";
@@ -139,6 +140,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     { id: "ral-2007-c", name: "RAL 2007", code: "#FF8200", description: "Naranja luminoso. Energía y creatividad en acabado PVD.", image: ral2007c, maintenance: "Jabón líquido diluido en agua.", productImage: faucetRal2007 },
     { id: "ral-4005-c", name: "RAL 4005", code: "#8B6FAC", description: "Lila azulado. Personalidad única en acabado PVD.", image: ral4005c, maintenance: "Paño de microfibra seco.", productImage: faucetRal4005 },
     { id: "ral-5017-c", name: "RAL 5017", code: "#1A5784", description: "Azul tráfico. Tono profundo y elegante en acabado PVD.", image: ral5017c, maintenance: "Limpieza suave con agua.", productImage: faucetRal5017 },
+    { id: "ral-5024-c", name: "RAL 5024", code: "#8DAFC4", description: "Azul pastel. Tono suave y elegante en acabado PVD.", image: ral5017c, maintenance: "Paño suave húmedo.", productImage: faucetRal5024 },
     { id: "ral-6027-c", name: "RAL 6027", code: "#7AADAA", description: "Verde turquesa claro. Frescura y sofisticación en PVD.", image: ral6027c, maintenance: "Paño suave húmedo.", productImage: faucetRal6027 },
     { id: "ral-6037-c", name: "RAL 6037", code: "#2D8930", description: "Verde puro. Color vibrante y natural en acabado PVD.", image: ral6037c, maintenance: "Jabón suave diluido en agua.", productImage: faucetRal6037 },
     { id: "ral-7045-c", name: "RAL 7045", code: "#8E929B", description: "Gris telegris. Acabado neutro y elegante en PVD.", image: ral7045c, maintenance: "Paño de microfibra húmedo.", productImage: faucetRal7045 },
