@@ -175,7 +175,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     { id: "laser-grabado", name: "Grabado láser", code: "#848789", description: "Técnica láser que permite realizar un grabado en un área del grifo, un diseño individual con toque muy personal.", image: productHero, maintenance: "Paño de microfibra seco.", productImage: laserRosa, gallery: [laserRosa, laserRock, laserRocket, laserIdentity, laserAgua, laserNamaste, laserDaisa] },
   ],
   metales: [
-    { id: "metal-cromo", name: "Cromo", code: "#C0C0C0", description: "Acabado cromado clásico. YY = 00", image: pemMetales, maintenance: "Paño suave húmedo." },
+    { id: "metal-cromo", name: "Cromo", code: "#C0C0C0", description: "Acabado cromado clásico. YY = 00", image: pemMetales, maintenance: "Paño suave húmedo.", productImage: faucetCromo },
     { id: "metal-cromo-mate", name: "Cromo mate", code: "#D4D4D4", description: "Acabado cromado mate. YY = 61", image: pemMetales, maintenance: "Paño de microfibra seco.", productImage: faucetCromoMate },
     { id: "metal-cromo-negro-brillo", name: "Cromo negro brillo", code: "#2C2C2C", description: "Acabado cromo negro brillante. YY = 35", image: pemMetales, maintenance: "Paño suave húmedo.", productImage: faucetCromoNegroBrillo },
     { id: "metal-cromo-negro-cepillado", name: "Cromo negro cepillado", code: "#3A3A3A", description: "Acabado cromo negro cepillado. YY = 36", image: pemMetales, maintenance: "Paño de microfibra seco.", productImage: faucetCromoNegroCepillado },
