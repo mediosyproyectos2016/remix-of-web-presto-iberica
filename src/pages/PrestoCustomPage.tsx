@@ -180,7 +180,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     { id: "animal", name: "Animal Print", code: "#C8A45A", description: "Estampado animal leopardo. Diseño salvaje y sofisticado.", image: iconCocodrilo, maintenance: "Paño suave húmedo.", productImage: printAnimal },
     { id: "art-deco", name: "Art Decó", code: "#C9A84C", description: "Motivos florales Art Decó en oro y negro. Elegancia clásica reinventada.", image: acabadoCamaleon, maintenance: "Paño de microfibra seco.", productImage: printArtDeco },
     { id: "esmerizado", name: "Esmerizado", code: "#5B6EAE", description: "Acabado esmerizado liso en tono azul intenso. Superficie mate uniforme.", image: acabadoEsmerizadoAzul, maintenance: "Paño suave húmedo.", productImage: printEsmerizado },
-    { id: "animal-multi", name: "Animal Collection", code: "#8B6914", description: "Colección animal print: zebra, leopardo, serpiente y tigre. Naturaleza salvaje en la grifería.", image: iconCocodrilo, maintenance: "Paño suave húmedo.", productImage: printAnimalMulti },
+    
     { id: "dalmata", name: "Dálmata", code: "#FFFFFF", description: "Estampado dálmata blanco y negro. Diseño divertido y atrevido.", image: iconDalmata, maintenance: "Paño suave húmedo.", productImage: printDalmata },
   ],
   laser: [
