@@ -175,7 +175,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     { id: "espiral", name: "Espiral", code: "#C8A800", description: "Diseño con espirales en negro y dorado. Carácter único y artesanal.", image: iconEspiral, maintenance: "Paño de microfibra seco.", productImage: printEspiral },
     { id: "floral", name: "Floral", code: "#E8453C", description: "Estampado floral colorido. Frescura y alegría en el diseño del grifo.", image: iconFloral, maintenance: "Paño suave húmedo.", productImage: printFloral },
     { id: "graffiti", name: "Graffiti", code: "#FF4500", description: "Arte urbano sobre la grifería. Explosión de color y creatividad.", image: iconGraffiti, maintenance: "Paño suave húmedo.", productImage: printGraffiti },
-    { id: "tornasolado", name: "Tornasolado", code: "#6B4C8A", description: "Acabado tornasolado con reflejos violeta-azul. Efecto cambiante según la luz.", image: acabadoEsmerizadoAzul, maintenance: "Paño de microfibra seco.", productImage: printTornasolado },
+    
     { id: "serpiente", name: "Serpiente", code: "#8B7355", description: "Textura piel de serpiente. Acabado exótico y atrevido.", image: iconSerpiente, maintenance: "Paño suave húmedo.", productImage: printSerpiente },
     { id: "animal", name: "Animal Print", code: "#C8A45A", description: "Estampado animal leopardo. Diseño salvaje y sofisticado.", image: iconCocodrilo, maintenance: "Paño suave húmedo.", productImage: printAnimal },
     { id: "art-deco", name: "Art Decó", code: "#C9A84C", description: "Motivos florales Art Decó en oro y negro. Elegancia clásica reinventada.", image: acabadoCamaleon, maintenance: "Paño de microfibra seco.", productImage: printArtDeco },
