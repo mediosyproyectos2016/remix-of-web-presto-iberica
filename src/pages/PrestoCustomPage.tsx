@@ -48,6 +48,7 @@ import ral2002c from "@/assets/ral/RAL-2002-3.png";
 import ral2007c from "@/assets/ral/RAL-2007-3.png";
 import ral4005c from "@/assets/ral/RAL-4005-3.png";
 import ral5017c from "@/assets/ral/RAL-5017-3.png";
+import ral5024c from "@/assets/ral/RAL-5024.jpg";
 import ral6027c from "@/assets/ral/RAL-6027-3.png";
 import ral6037c from "@/assets/ral/RAL-6037-3.png";
 import ral7045c from "@/assets/ral/RAL-7045-3.png";
