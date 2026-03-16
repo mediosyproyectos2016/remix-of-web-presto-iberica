@@ -167,7 +167,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     { id: "marmol-blanco", name: "Mármol Blanco", code: "#F0EDE8", description: "Efecto mármol blanco con vetas sutiles. Pureza y sofisticación en cada detalle.", image: iconMarmolBlanco, maintenance: "Paño suave húmedo.", productImage: printMarmolBlanco },
     { id: "panel", name: "Panel Hexagonal", code: "#4A4A4A", description: "Patrón geométrico hexagonal. Diseño contemporáneo y sofisticado.", image: acabadoPanel, maintenance: "Limpieza suave con agua y jabón neutro." },
     { id: "madera", name: "Madera Natural", code: "#B5651D", description: "Efecto madera natural. Calidez orgánica aplicada sobre la superficie metálica.", image: iconMadera, maintenance: "Paño de microfibra húmedo.", productImage: printMadera },
-    { id: "esmerizado-azul", name: "Esmerizado Azul", code: "#5B6EAE", description: "Azul esmerizado con textura suave y acabado mate distintivo.", image: acabadoEsmerizadoAzul, maintenance: "Jabón suave diluido en agua." },
+    
     { id: "carbono-claro", name: "Carbono Claro", code: "#B0B0B0", description: "Fibra de carbono en tono claro. Tecnología y diseño en un acabado único.", image: acabadoCarbonoClaro, maintenance: "Paño suave húmedo.", productImage: printCarbonoClaro },
     { id: "carbono", name: "Carbono", code: "#5A5A5A", description: "Fibra de carbono oscuro. Acabado técnico de alto rendimiento.", image: acabadoCarbono, maintenance: "Limpieza suave con agua.", productImage: printCarbono },
     { id: "camaleon", name: "Camaleón", code: "#5B6D8E", description: "Efecto camaleón con degradado de tonos azul-violeta. Acabado iridiscente único.", image: acabadoCamaleon, maintenance: "Paño de microfibra seco." },
