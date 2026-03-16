@@ -48,6 +48,7 @@ import ral2002c from "@/assets/ral/RAL-2002-3.png";
 import ral2007c from "@/assets/ral/RAL-2007-3.png";
 import ral4005c from "@/assets/ral/RAL-4005-3.png";
 import ral5017c from "@/assets/ral/RAL-5017-3.png";
+import ral5024c from "@/assets/ral/RAL-5024.jpg";
 import ral6027c from "@/assets/ral/RAL-6027-3.png";
 import ral6037c from "@/assets/ral/RAL-6037-3.png";
 import ral7045c from "@/assets/ral/RAL-7045-3.png";
@@ -152,7 +153,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     { id: "ral-2007-c", name: "RAL 2007", code: "#FF8200", description: "Naranja luminoso. Energía y creatividad en acabado.", image: ral2007c, maintenance: "Jabón líquido diluido en agua.", productImage: faucetRal2007 },
     { id: "ral-4005-c", name: "RAL 4005", code: "#8B6FAC", description: "Lila azulado. Personalidad única en acabado.", image: ral4005c, maintenance: "Paño de microfibra seco.", productImage: faucetRal4005 },
     { id: "ral-5017-c", name: "RAL 5017", code: "#1A5784", description: "Azul tráfico. Tono profundo y elegante.", image: ral5017c, maintenance: "Limpieza suave con agua.", productImage: faucetRal5017 },
-    { id: "ral-5024-c", name: "RAL 5024", code: "#8DAFC4", description: "Azul pastel. Tono suave y elegante.", image: ral5017c, maintenance: "Paño suave húmedo.", productImage: faucetRal5024 },
+    { id: "ral-5024-c", name: "RAL 5024", code: "#8DAFC4", description: "Azul pastel. Tono suave y elegante.", image: ral5024c, maintenance: "Paño suave húmedo.", productImage: faucetRal5024 },
     { id: "ral-6027-c", name: "RAL 6027", code: "#7AADAA", description: "Verde turquesa claro. Frescura y sofisticación.", image: ral6027c, maintenance: "Paño suave húmedo.", productImage: faucetRal6027 },
     { id: "ral-6037-c", name: "RAL 6037", code: "#2D8930", description: "Verde puro. Color vibrante y natural.", image: ral6037c, maintenance: "Jabón suave diluido en agua.", productImage: faucetRal6037 },
     { id: "ral-7045-c", name: "RAL 7045", code: "#8E929B", description: "Gris telegris. Acabado neutro y elegante.", image: ral7045c, maintenance: "Paño de microfibra húmedo.", productImage: faucetRal7045 },
