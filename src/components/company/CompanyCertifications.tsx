@@ -110,9 +110,15 @@ export const CompanyCertifications = () => {
               transition={{ duration: 0.4, delay: index * 0.08 }}
               className="bg-background p-6 border border-border hover:border-primary/30 transition-colors"
             >
-              <div className="w-14 h-14 bg-primary text-primary-foreground flex items-center justify-center font-display text-sm mb-4">
-                {cert.logo}
-              </div>
+              {cert.image ? (
+                <div className="w-14 h-14 flex items-center justify-center mb-4">
+                  <img src={cert.image} alt={cert.name} className="w-full h-full object-contain" />
+                </div>
+              ) : (
+                <div className="w-14 h-14 bg-primary text-primary-foreground flex items-center justify-center font-display text-sm mb-4">
+                  {cert.logo}
+                </div>
+              )}
               <h3 className="font-display text-xl mb-2">{cert.name}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {cert.description}
