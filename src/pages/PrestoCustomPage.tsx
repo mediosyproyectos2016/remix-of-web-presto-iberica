@@ -35,7 +35,8 @@ import printTornasolado from "@/assets/ral/print-tornasolado.jpg";
 import printSerpiente from "@/assets/ral/print-serpiente.jpg";
 import printMarmolNegroAmbiente from "@/assets/ral/print-marmol-negro-ambiente.jpg";
 import printAnimal from "@/assets/ral/print-animal.png";
-import printArtDeco from "@/assets/ral/print-art-deco.jpg";
+import printArtDeco from "@/assets/custom/grifo-art-deco.jpg";
+import iconArtDeco from "@/assets/custom/deco.jpg";
 import printEsmerizado from "@/assets/ral/print-esmerizado.png";
 import printAnimalMulti from "@/assets/ral/print-animal-multi.png";
 import printMadera from "@/assets/ral/print-madera.jpg";
@@ -178,7 +179,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     
     { id: "serpiente", name: "Serpiente", code: "#8B7355", description: "Textura piel de serpiente. Acabado exótico y atrevido.", image: iconSerpiente, maintenance: "Paño suave húmedo.", productImage: printSerpiente },
     { id: "animal", name: "Animal Print", code: "#C8A45A", description: "Estampado animal leopardo. Diseño salvaje y sofisticado.", image: iconCocodrilo, maintenance: "Paño suave húmedo.", productImage: printAnimal },
-    { id: "art-deco", name: "Art Decó", code: "#C9A84C", description: "Motivos florales Art Decó en oro y negro. Elegancia clásica reinventada.", image: acabadoCamaleon, maintenance: "Paño de microfibra seco.", productImage: printArtDeco },
+    { id: "art-deco", name: "Art Déco", code: "#C9A84C", description: "Motivos florales Art Déco en oro y negro. Elegancia clásica reinventada.", image: iconArtDeco, maintenance: "Paño de microfibra seco.", productImage: printArtDeco },
     { id: "esmerilado", name: "Esmerilado", code: "#5B6EAE", description: "Acabado esmerilado liso en tono azul intenso. Superficie mate uniforme.", image: acabadoEsmerizadoAzul, maintenance: "Paño suave húmedo.", productImage: printEsmerizado },
     
     { id: "dalmata", name: "Dálmata", code: "#FFFFFF", description: "Estampado dálmata blanco y negro. Diseño divertido y atrevido.", image: iconDalmata, maintenance: "Paño suave húmedo.", productImage: printDalmata },
