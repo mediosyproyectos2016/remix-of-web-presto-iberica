@@ -105,7 +105,7 @@ const CompanyPage = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               <span className="text-xs tracking-luxury uppercase text-white/70 mb-6 block">
-                Desde 1972
+                Desde 1979
               </span>
               <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 sm:mb-6 uppercase">
                 Líderes en el
