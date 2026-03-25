@@ -36,12 +36,14 @@ export const ProyectosSostenible = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <h2 className="font-display text-3xl md:text-4xl mb-6 text-center">Certificaciones eficientes</h2>
-        <p className="text-muted-foreground max-w-4xl leading-relaxed mb-16 text-sm">
-          La legislación española desde el año 2013 obliga a que para realizar la compra o alquiler de cualquier tipo de 
-          inmueble, se emita un certificado energético del mismo donde poder cuantificar el grado de eficiencia energética. 
-          Existen a nivel mundial organizaciones que han promocionado diversos sistemas de certificación con el objetivo 
-          de fomentar la sostenibilidad en los edificios, permitiendo cuantificar de forma sencilla a partir de la aplicación de 
-          una serie de requisitos, el grado de sostenibilidad de un edificio desde el primer momento en es proyectado.
+        <p className="text-muted-foreground max-w-4xl leading-relaxed mb-16 text-sm text-center mx-auto">
+          La legislación española, desde el año 2013, obliga a que, para realizar la compra o alquiler de cualquier tipo de 
+          inmueble, se emita un certificado energético del mismo que permita cuantificar su grado de eficiencia energética.
+        </p>
+        <p className="text-muted-foreground max-w-4xl leading-relaxed mb-16 text-sm text-center mx-auto -mt-10">
+          Existen a nivel mundial diversas organizaciones que han promovido distintos sistemas de certificación con el objetivo 
+          de fomentar la sostenibilidad en los edificios, permitiendo cuantificar de forma sencilla, a partir de la aplicación de 
+          una serie de requisitos, el grado de sostenibilidad de un edificio desde el primer momento de su proyecto.
         </p>
       </motion.div>
 
