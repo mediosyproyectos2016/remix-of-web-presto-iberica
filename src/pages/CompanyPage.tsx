@@ -208,7 +208,7 @@ const CompanyPage = () => {
               </h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Fundada en 1984, Presto Ibérica es una empresa dedicada a la fabricación y 
+                  Fundada en 1979, Presto Ibérica es una empresa dedicada a la fabricación y 
                   comercialización de grifos para baño y cocina y otras soluciones para el uso del 
                   agua.
                 </p>
