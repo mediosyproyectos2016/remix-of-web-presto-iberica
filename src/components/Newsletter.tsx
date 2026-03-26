@@ -3,12 +3,14 @@ import { ArrowRight } from "lucide-react";
 
 export const Newsletter = () => {
   const [email, setEmail] = useState("");
+  const [newsletter, setNewsletter] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (email) {
       window.location.href = `mailto:info@prestoiberica.com?subject=Suscripción Newsletter&body=Hola, me gustaría suscribirme a la newsletter con el email: ${encodeURIComponent(email)}`;
       setEmail("");
+      setNewsletter(false);
     }
   };
 
@@ -48,12 +50,27 @@ export const Newsletter = () => {
                 <ArrowRight className="w-4 h-4" />
               </button>
             </form>
-            <p className="text-xs text-white/40 mt-4">
-              Al suscribirte, aceptas nuestra{" "}
-              <a href="/privacidad" className="underline hover:text-white/60 transition-colors">
-                política de privacidad
-              </a>
-            </p>
+            <div className="mt-4 space-y-3">
+              <div className="flex items-start gap-3">
+                <input
+                  type="checkbox"
+                  id="newsletter-accept"
+                  checked={newsletter}
+                  onChange={(e) => setNewsletter(e.target.checked)}
+                  className="mt-1"
+                  required
+                />
+                <label htmlFor="newsletter-accept" className="text-xs text-white/50">
+                  Acepto recibir boletines informativos sobre las actividades de PRESTO IBÉRICA, S.A.
+                </label>
+              </div>
+              <p className="text-xs text-white/40">
+                Al suscribirte, aceptas nuestra{" "}
+                <a href="/privacidad" className="underline hover:text-white/60 transition-colors">
+                  política de privacidad
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
