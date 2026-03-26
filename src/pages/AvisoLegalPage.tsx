@@ -15,56 +15,82 @@ const AvisoLegalPage = () => {
             <h1 className="text-4xl md:text-5xl font-display mb-10">Aviso Legal</h1>
 
             <div className="prose prose-lg max-w-none text-foreground space-y-8 text-sm leading-relaxed">
-              <section>
-                <h2 className="font-display text-2xl mb-4">Ley de los Servicios de la Sociedad de la Información (LSSI)</h2>
-                <p>PRESTO IBERICA SA, responsable del sitio web, en adelante RESPONSABLE, pone a disposición de los usuarios el presente documento, con el que pretende dar cumplimiento a las obligaciones dispuestas en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSICE), BOE N.º 166, así como informar a todos los usuarios del sitio web respecto a cuáles son las condiciones de uso.</p>
-                <p>Toda persona que acceda a este sitio web asume el papel de usuario, comprometiéndose a la observancia y cumplimiento riguroso de las disposiciones aquí dispuestas, así como a cualquier otra disposición legal que fuera de aplicación.</p>
-                <p>PRESTO IBERICA SA se reserva el derecho de modificar cualquier tipo de información que pudiera aparecer en el sitio web, sin que exista obligación de preavisar o poner en conocimiento de los usuarios dichas obligaciones, entendiéndose como suficiente la publicación en el sitio web de PRESTO IBERICA SA.</p>
-              </section>
+              <p>Le agradecemos que hayas decidido visitarnos. Queremos que su experiencia en nuestra Web sea lo mejor posible.</p>
+              <p>Para acceder a nuestros servicios, declara que es mayor de edad y que tiene la capacidad legal suficiente para usar nuestros servicios, de acuerdo con su ley nacional. El acceso y la navegación en el sitio web, o el uso de los servicios del mismo, implican la aceptación expresa e íntegra de todas y cada una de las presentes Condiciones Generales, incluidas tanto las Condiciones Particulares fijadas para ciertas promociones, así como de las Políticas de Privacidad y de las Cookies, relacionadas con la normativa vigente en la materia de Protección de Datos Personales. Por favor, le recomendamos que las lea con atención para saber qué tipo de datos se recogen a través de nuestra Web, con qué finalidades y qué derechos relacionados con ello le conciernen.</p>
 
               <section>
-                <h2 className="font-display text-2xl mb-4">1. Datos Identificativos</h2>
+                <h2 className="font-display text-2xl mb-4">1. Información Legal</h2>
+                <p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, los datos identificativos del titular del Portal Web son:</p>
                 <ul className="list-none space-y-1 pl-0">
-                  <li><strong>Nombre de dominio:</strong> prestoiberica.com</li>
-                  <li><strong>Nombre comercial:</strong> PRESTOIBERICA</li>
-                  <li><strong>Denominación social:</strong> PRESTO IBERICA SA</li>
-                  <li><strong>NIF:</strong> A28576197</li>
-                  <li><strong>Domicilio social:</strong> C/ Príncipe De Vergara 13, 28001 Madrid (MADRID)</li>
-                  <li><strong>Teléfono:</strong> 915 782 575</li>
-                  <li><strong>E-mail:</strong> info@prestoiberica.com</li>
+                  <li><strong>PRESTO IBÉRICA, S.A.</strong></li>
+                  <li>A28576197</li>
+                  <li>Calle Príncipe De Vergara, nº 13 – 28001 Madrid</li>
+                  <li>Inscripción en el registro mercantil de Madrid: Tomo 7.836 Folio 51 Hoja M-126.634 Inscripción 1ª</li>
                 </ul>
-                <p className="mt-3 text-muted-foreground">Presto Ibérica, S.A., CIF A28576197. Inscripción en el registro mercantil de Madrid: Tomo 7.836 Folio 51 Hoja M-126.634 Inscripción 1ª</p>
+                <p className="mt-3">Para cualquier duda o consulta, puede ponerse en contacto con nosotros a través del Telf: 915 782 575 o e-mail: <a href="mailto:info@prestoiberica.com" className="text-accent hover:underline">info@prestoiberica.com</a>.</p>
+                <p>El acceso a la Web supone la aceptación expresa del Usuario a las presentes Condiciones Generales de Uso, que podrán ser modificadas total o parcialmente o sustituidas por otras, por su titular y en cualquier momento sin previo aviso. Le recomendamos que acceda a las presentes condiciones de vez en cuando para comprobar sus posibles modificaciones, que se publicarán en el mismo apartado.</p>
               </section>
 
               <section>
-                <h2 className="font-display text-2xl mb-4">2. Derechos de Propiedad Intelectual e Industrial</h2>
-                <p>El sitio web, incluyendo a título enunciativo pero no limitativo su programación, edición, compilación y demás elementos necesarios para su funcionamiento, los diseños, logotipos, texto y/o gráficos, son propiedad del RESPONSABLE o, si es el caso, dispone de licencia o autorización expresa por parte de los autores. Todos los contenidos del sitio web se encuentran debidamente protegidos por la normativa de propiedad intelectual e industrial, así como inscritos en los registros públicos correspondientes.</p>
-                <p>Independientemente de la finalidad para la que fueran destinados, la reproducción total o parcial, uso, explotación, distribución y comercialización, requiere en todo caso la autorización escrita previa por parte del RESPONSABLE. Cualquier uso no autorizado previamente se considera un incumplimiento grave de los derechos de propiedad intelectual o industrial del autor.</p>
-                <p>Los diseños, logotipos, texto y/o gráficos ajenos al RESPONSABLE y que pudieran aparecer en el sitio web, pertenecen a sus respectivos propietarios, siendo ellos mismos responsables de cualquier posible controversia que pudiera suscitarse respecto a los mismos. El RESPONSABLE autoriza expresamente a que terceros puedan redirigir directamente a los contenidos concretos del sitio web, y en todo caso redirigir al sitio web principal de prestoiberica.com.</p>
-                <p>Para realizar cualquier tipo de observación respecto a posibles incumplimientos de los derechos de propiedad intelectual o industrial, así como sobre cualquiera de los contenidos del sitio web, puede hacerlo a través del correo electrónico info@prestoiberica.com.</p>
+                <h2 className="font-display text-2xl mb-4">2. Condiciones Generales de Uso</h2>
+                <p>Las siguientes Condiciones Generales regulan el uso y acceso al portal Web, cuya finalidad es establecer pautas de buen uso y comportamiento de la misma. PRESTO IBÉRICA, S.A. pone a disposición de los usuarios información sobre el uso, los servicios y los contenidos que se alojan en la Web. A través ésta, el Usuario tiene acceso a información sobre productos y servicios específicos, herramientas y aplicaciones.</p>
+                <p>Los datos e informaciones sobre productos o servicios, precios y características u otros datos relevantes ofrecidos a través de la página web son realizados, proporcionados y actualizados por proveedores y terceras empresas. PRESTO IBÉRICA, S.A. no es, en ningún caso, responsable de dichos datos e informaciones ni asume ninguna obligación sobre los mismos.</p>
+                <p>El Usuario se compromete a hacer un uso adecuado de los contenidos, servicios, aplicaciones y herramientas que están accesibles, con sujeción a la Ley y a las presentes Condiciones Generales de Uso y, en su caso a las Condiciones Particulares que puedan establecerse para el acceso a determinados servicios y aplicaciones, respetando en todo momento a los demás Usuarios de la misma.</p>
+                <p>En caso de incumplimiento total y/o parcial por el Usuario de las presentes condiciones Generales de Uso, PRESTO IBÉRICA, S.A. se reserva el derecho de denegar el acceso a la Web, sin necesidad de previo aviso al Usuario.</p>
               </section>
 
               <section>
-                <h2 className="font-display text-2xl mb-4">3. Exención de Responsabilidades</h2>
-                <p>El RESPONSABLE se exime de cualquier tipo de responsabilidad derivada de la información publicada en su sitio web siempre que esta información haya sido manipulada o introducida por un tercero ajeno al mismo.</p>
-
-                <h3 className="font-display text-xl mt-6 mb-3">Uso de Cookies</h3>
-                <p>Este sitio web puede utilizar cookies técnicas (pequeños archivos de información que el servidor envía al ordenador de quien accede a la página) para llevar a cabo determinadas funciones que son consideradas imprescindibles para el correcto funcionamiento y visualización del sitio. Las cookies utilizadas tienen, en todo caso, carácter temporal, con la única finalidad de hacer más eficaz la navegación, y desaparecen al terminar la sesión del usuario. En ningún caso, estas cookies proporcionan por sí mismas datos de carácter personal y no se utilizarán para la recogida de los mismos.</p>
-                <p>Mediante el uso de cookies también es posible que el servidor donde se encuentra la web reconozca el navegador utilizado por el usuario con la finalidad de que la navegación sea más sencilla, permitiendo, por ejemplo, el acceso de los usuarios que se hayan registrado previamente a las áreas, servicios, promociones o concursos reservados exclusivamente a ellos sin tener que registrarse en cada visita. También se pueden utilizar para medir la audiencia, parámetros de tráfico, controlar el progreso y número de entradas, etc., siendo en estos casos cookies prescindibles técnicamente, pero beneficiosas para el usuario. Este sitio web no instalará cookies prescindibles sin el consentimiento previo del usuario.</p>
-                <p>El usuario tiene la posibilidad de configurar su navegador para ser alertado de la recepción de cookies y para impedir su instalación en su equipo. Por favor, consulte las instrucciones de su navegador para ampliar esta información.</p>
-
-                <h3 className="font-display text-xl mt-6 mb-3">Política de enlaces</h3>
-                <p>Desde el sitio web, es posible que se redirija a contenidos de terceros sitios web. Dado que el RESPONSABLE no puede controlar siempre los contenidos introducidos por terceros en sus respectivos sitios web, no asume ningún tipo de responsabilidad respecto a dichos contenidos. En todo caso, procederá a la retirada inmediata de cualquier contenido que pudiera contravenir la legislación nacional o internacional, la moral o el orden público, procediendo a la retirada inmediata de la redirección a dicho sitio web, poniendo en conocimiento de las autoridades competentes el contenido en cuestión.</p>
-                <p>El RESPONSABLE no se hace responsable de la información y contenidos almacenados, a título enunciativo pero no limitativo, en foros, chats, generadores de blogs, comentarios, redes sociales o cualquier otro medio que permita a terceros publicar contenidos de forma independiente en la página web del RESPONSABLE. Sin embargo, y en cumplimiento de lo dispuesto en los artículos 11 y 16 de la LSSICE, se pone a disposición de todos los usuarios, autoridades y fuerzas de seguridad, colaborando de forma activa en la retirada o, en su caso, bloqueo de todos aquellos contenidos que puedan afectar o contravenir la legislación nacional o internacional, los derechos de terceros o la moral y el orden público.</p>
-                <p>Este sitio web se ha revisado y probado para que funcione correctamente. En principio, puede garantizarse el correcto funcionamiento los 365 días del año, 24 horas al día. Sin embargo, el RESPONSABLE no descarta la posibilidad de que existan ciertos errores de programación, o que acontezcan causas de fuerza mayor, catástrofes naturales, huelgas o circunstancias semejantes que hagan imposible el acceso a la página web.</p>
-
-                <h3 className="font-display text-xl mt-6 mb-3">Direcciones IP</h3>
-                <p>Los servidores del sitio web podrán detectar de manera automática la dirección IP y el nombre de dominio utilizados por el usuario. Una dirección IP es un número asignado automáticamente a un ordenador cuando este se conecta a Internet. Toda esta información se registra en un fichero de actividad del servidor que permite el posterior procesamiento de los datos con el fin de obtener mediciones únicamente estadísticas que permitan conocer el número de impresiones de páginas, el número de visitas realizadas a los servidores web, el orden de visitas, el punto de acceso, etc.</p>
+                <h2 className="font-display text-2xl mb-4">3. Obligaciones Generales del Usuario</h2>
+                <p>El Usuario, al aceptar las presentes condiciones Generales de Uso, se obliga expresamente a:</p>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>No realizar ninguna acción destinada perjudicar, bloquear, dañar, inutilizar, sobrecargar, de forma temporal o definitiva, las funcionalidades, herramientas, contenidos y/o la infraestructura de la página web, de manera que impida su normal utilización.</li>
+                  <li>Custodiar y mantener la confidencialidad de las claves de acceso asociadas a su nombre de Usuario, siendo responsable de la utilización de dichas claves de acceso personales e intransferibles por parte de terceros.</li>
+                  <li>No introducir ni realizar contenidos injuriosos o calumniosos, tanto de otros Usuarios como de terceras empresas ajenas a PRESTO IBÉRICA, S.A.</li>
+                  <li>No utilizar cualquiera de los materiales e informaciones contenidos en este Sitio Web con fines ilícitos y/o expresamente prohibidos en las presentes Condiciones Generales de Uso, así como a las condiciones particulares que, en su caso, se establezcan para determinadas aplicaciones y/o utilidades y que resulten contrarios a los derechos e intereses de PRESTO IBÉRICA, S.A., sus usuarios y/o terceros.</li>
+                  <li>No ofertar ni distribuir productos y servicios, ni realizar publicidad o comunicaciones comerciales no solicitadas a otros Usuarios y visitantes de PRESTO IBÉRICA, S.A.</li>
+                </ul>
+                <p className="mt-4">El Usuario responderá de los todos los daños y perjuicios de toda naturaleza que PRESTO IBÉRICA, S.A. o cualquier tercero pueda sufrir como consecuencia del incumplimiento de cualesquiera de las obligaciones a las que queda sometido por virtud de estas "Condiciones Generales de Uso" o de la ley en relación con el acceso y/o utilización de la página.</p>
               </section>
 
               <section>
-                <h2 className="font-display text-2xl mb-4">4. Ley Aplicable y Jurisdicción</h2>
-                <p>Para la resolución de todas las controversias o cuestiones relacionadas con el presente sitio web o de las actividades en él desarrolladas, será de aplicación la legislación española, a la que se someten expresamente las partes, siendo competentes para la resolución de todos los conflictos derivados o relacionados con su uso los Juzgados y Tribunales del domicilio del USUARIO o el lugar del cumplimiento de la obligación.</p>
+                <h2 className="font-display text-2xl mb-4">4. Propiedad Intelectual e Industrial</h2>
+                <p>El sitio web, las páginas que comprende y la información o elementos contenidos en las mismas (incluyendo textos, documentos, fotografías, dibujos, representaciones gráficas, de los que es titular o de los que sean titulares terceros que autorizan al propietario a su utilización, entre otros), así como logotipos, marcas, nombres comerciales u otros signos distintivos, se encuentran protegidos por derechos de propiedad intelectual y/o industrial, de los que PRESTO IBÉRICA, S.A. es titular u ostenta autorización para su utilización y comunicación pública de los legítimos titulares de las mismas.</p>
+                <p>El Usuario se obliga a usar los contenidos de forma diligente y correcta, de acuerdo con la ley, la moral y el orden público. PRESTO IBÉRICA, S.A. autoriza al Usuario para visualizar la información que se contiene en este sitio web, así como para efectuar reproducciones privadas (simple actividad de descarga y almacenamiento en sus sistemas informáticos), siempre y cuando los elementos sean destinados únicamente al uso personal. En ningún caso, ello significará una autorización o licencia sobre los derechos de propiedad de PRESTO IBÉRICA, S.A. o de los legítimos titulares de las mismas.</p>
+                <p>El Usuario no está autorizado para proceder a la distribución, modificación, cesión o comunicación pública de la información contenida en esta Web en cualquier forma y cualquiera que sea su finalidad.</p>
+                <p>Para realizar cualquier tipo de observación respecto a posibles incumplimientos de los derechos de propiedad intelectual o industrial, así como sobre cualquiera de los contenidos del sitio web, puede hacerlo a través de las direcciones postales o electrónicas indicadas en el encabezamiento.</p>
+              </section>
+
+              <section>
+                <h2 className="font-display text-2xl mb-4">5. Enlaces</h2>
+                <p>Las conexiones y enlaces a sitios o páginas Web de terceros se han establecido únicamente como una utilidad para el Usuario. PRESTO IBÉRICA, S.A. no es, en ningún caso, responsable de las mismas o de su contenido.</p>
+                <p>PRESTO IBÉRICA, S.A. no asume ninguna responsabilidad derivada de la existencia de enlaces entre los contenidos de este sitio y contenidos situados fuera del mismo o de cualquier otra mención de contenidos externos a este sitio. Tales enlaces o menciones tienen una finalidad exclusivamente informativa y, en ningún caso, implican el apoyo, aprobación, comercialización o relación alguna entre PRESTO IBÉRICA, S.A. y las personas o entidades autoras y/o gestoras de tales contenidos o titulares de los sitios donde se encuentren.</p>
+                <p>Para realizar enlaces con la página Web será necesaria la autorización expresa y por escrito de los titulares del portal.</p>
+                <p>Si cualquier usuario o tercero observa que tales enlaces pueden ser contrarios a las leyes, la moral o el orden público, o que sean susceptibles de incitar a la violencia o a la discriminación por razones sexuales, ideológicas, religiosas o raciales, rogamos que lo ponga en nuestro conocimiento a través de las direcciones indicadas en el encabezamiento, o a través de la dirección de correo electrónico.</p>
+              </section>
+
+              <section>
+                <h2 className="font-display text-2xl mb-4">6. Responsabilidad</h2>
+                <p>PRESTO IBÉRICA, S.A. no garantiza el acceso continuado, ni la correcta visualización, descarga o utilidad de los elementos e información contenidos en las páginas del portal que pueden verse impedidos, dificultados o interrumpidos por factores o circunstancias fuera de su control o ajenas a su voluntad, ni de aquellos que sean producidos por la existencia de virus informáticos en Internet.</p>
+                <p>PRESTO IBÉRICA, S.A. no asume responsabilidad alguna por daños, perjuicios, pérdidas, reclamaciones o gastos, producidos por:</p>
+                <ul className="list-disc pl-5 space-y-2">
+                  <li>Interferencias, interrupciones, fallos, omisiones, retrasos, bloqueos o desconexiones, motivadas por errores en las líneas y redes de telecomunicaciones o por cualquier otra causa ajena al control de PRESTO IBÉRICA, S.A.</li>
+                  <li>Intromisiones ilegítimas mediante el uso de programas malignos de cualquier tipo y a través de cualquier medio de comunicación, tales como virus informáticos o cualesquiera otros.</li>
+                  <li>Uso indebido o inadecuado de la página web de PRESTO IBÉRICA, S.A.</li>
+                  <li>Errores de seguridad o navegación producidos por un mal funcionamiento del navegador o por el uso de versiones no actualizadas.</li>
+                </ul>
+                <p className="mt-4">PRESTO IBÉRICA, S.A. no es responsable ni en ningún caso responderá frente a los usuarios y a terceros sobre actos de cualquier tercero ajeno a PRESTO IBÉRICA, S.A. que conlleve o pueda suponer la realización de actos de competencia desleal y publicidad ilícita o la infracción de los derechos de propiedad intelectual e industrial, de los secretos empresariales, de compromisos contractuales de cualquier clase, de los derechos al honor, a la intimidad personal y familiar y a la imagen, de los derechos de propiedad y de toda otra naturaleza pertenecientes a un tercero por razón de la transmisión, difusión, almacenamiento, puesta a disposición, recepción, obtención o acceso a los contenidos.</p>
+              </section>
+
+              <section>
+                <h2 className="font-display text-2xl mb-4">7. Protección de Datos de Carácter Personal</h2>
+                <p>Toda la política de tratamiento de datos personales la encontrarás en la <a href="/privacidad" className="text-accent hover:underline">Política de Privacidad</a>, que forma parte integrante de estas Condiciones Generales pero que, por simplicidad, hemos puesto en un documento aparte.</p>
+              </section>
+
+              <section>
+                <h2 className="font-display text-2xl mb-4">8. Legislación y Jurisdicción</h2>
+                <p>El presente Aviso Legal y sus términos y condiciones se regirán e interpretarán de acuerdo con la Legislación Española. Cualquier controversia será resuelta ante los Juzgados y Tribunales competentes.</p>
+                <p>El usuario, por el solo hecho de acceder a la página web u obtener la condición de usuario registrado otorga, de forma irrevocable, su consentimiento a que los Tribunales competentes por defecto puedan conocer de cualquier acción judicial derivada de o relacionada con las presentes condiciones, o con su uso de este Sitio o la navegación realizada por el mismo.</p>
+                <p>Si alguna cláusula o apartado de las presentes Condiciones Generales, que no sea de naturaleza esencial para la existencia del mismo, es declarada nula o inaplicable, la validez de las restantes cláusulas no se verá afectada.</p>
               </section>
             </div>
           </motion.div>
