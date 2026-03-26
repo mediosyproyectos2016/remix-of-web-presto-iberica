@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Send, MessageSquare } from "lucide-react";
+import { PrivacyInfoTooltip } from "./PrivacyInfoTooltip";
 
 const contactInfo = [
   {
@@ -48,6 +49,7 @@ export const AsistenciaSection = () => {
     subject: "",
     message: "",
     privacy: false,
+    newsletter: false,
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -218,7 +220,7 @@ export const AsistenciaSection = () => {
               <button
                 onClick={() => {
                   setIsSubmitted(false);
-                  setFormState({ name: "", email: "", phone: "", company: "", department: "", subject: "", message: "", privacy: false });
+                  setFormState({ name: "", email: "", phone: "", company: "", department: "", subject: "", message: "", privacy: false, newsletter: false });
                 }}
                 className="btn-outline-elegant uppercase tracking-wider text-sm px-10 py-4"
               >
@@ -266,13 +268,21 @@ export const AsistenciaSection = () => {
                   <label htmlFor="message" className="text-sm font-medium mb-2 block">Mensaje *</label>
                   <textarea id="message" name="message" required rows={5} value={formState.message} onChange={handleChange} className="input-elegant resize-none" placeholder="Cuéntanos más sobre tu proyecto o consulta..." />
                 </div>
-                <div className="flex items-start gap-3">
-                  <input type="checkbox" id="privacy" name="privacy" required checked={formState.privacy} onChange={handleChange} className="mt-1" />
-                  <label htmlFor="privacy" className="text-sm text-muted-foreground">
-                    He leído y acepto la{" "}
-                    <a href="/privacidad" className="text-foreground hover:text-accent transition-colors underline">política de privacidad</a>
-                    {" "}y consiento el tratamiento de mis datos.
-                  </label>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <input type="checkbox" id="privacy" name="privacy" required checked={formState.privacy} onChange={handleChange} className="mt-1" />
+                    <label htmlFor="privacy" className="text-sm text-muted-foreground">
+                      He leído y acepto la <PrivacyInfoTooltip />, así como la información adicional detallada en la{" "}
+                      <a href="/privacidad" className="text-foreground hover:text-accent transition-colors underline">Política de privacidad y protección de datos</a>. *
+                    </label>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <input type="checkbox" id="newsletter" name="newsletter" checked={formState.newsletter} onChange={handleChange} className="mt-1" />
+                    <label htmlFor="newsletter" className="text-sm text-muted-foreground">
+                      Acepto recibir boletines informativos sobre las actividades de PRESTO IBÉRICA, S.A.
+                    </label>
+                  </div>
+                  <p className="text-xs text-muted-foreground italic">* En caso de que no se marque la casilla no se podrá proceder a la gestión de su solicitud.</p>
                 </div>
                 <button type="submit" disabled={isSubmitting} className="btn-primary-elegant w-full md:w-auto flex items-center justify-center gap-2">
                   {isSubmitting ? (
