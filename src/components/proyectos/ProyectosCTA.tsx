@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { PrivacyInfoTooltip } from "./PrivacyInfoTooltip";
+import { PrivacyInfoTooltip } from "@/components/contact/PrivacyInfoTooltip";
 
 export const ProyectosCTA = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "", privacy: false, newsletter: false });
