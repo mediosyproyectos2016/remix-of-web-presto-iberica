@@ -167,7 +167,7 @@ const finishesByCategory: Record<string, Finish[]> = {
   print: [
     { id: "marmol", name: "Mármol Negro", code: "#1a1a1a", description: "Efecto mármol negro con vetas blancas. Elegancia clásica sobre la superficie del grifo.", image: acabadoMarmol, maintenance: "Paño suave húmedo. Evitar productos abrasivos.", productImage: printMarmolNegroAmbiente },
     { id: "marmol-blanco", name: "Mármol Blanco", code: "#F0EDE8", description: "Efecto mármol blanco con vetas sutiles. Pureza y sofisticación en cada detalle.", image: iconMarmolBlanco, maintenance: "Paño suave húmedo.", productImage: printMarmolBlanco },
-    { id: "panel", name: "Panel Hexagonal", code: "#4A4A4A", description: "Patrón geométrico hexagonal. Diseño contemporáneo y sofisticado.", image: acabadoPanel, maintenance: "Limpieza suave con agua y jabón neutro." },
+    { id: "panel", name: "Panel Hexagonal", code: "#4A4A4A", description: "Patrón geométrico hexagonal. Diseño contemporáneo y sofisticado.", image: acabadoPanel, maintenance: "Limpieza suave con agua y jabón neutro.", productImage: printPanelAmbiente },
     { id: "madera", name: "Madera Natural", code: "#B5651D", description: "Efecto madera natural. Calidez orgánica aplicada sobre la superficie metálica.", image: iconMadera, maintenance: "Paño de microfibra húmedo.", productImage: printMadera },
     
     { id: "carbono-claro", name: "Carbono Claro", code: "#B0B0B0", description: "Fibra de carbono en tono claro. Tecnología y diseño en un acabado único.", image: acabadoCarbonoClaro, maintenance: "Paño suave húmedo.", productImage: printCarbonoClaro },
