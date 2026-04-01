@@ -6,71 +6,66 @@ import certVerde from "@/assets/cert-verde.png";
 import certLeed from "@/assets/cert-leed.png";
 import certCte from "@/assets/cert-cte.png";
 import certWaterlabel from "@/assets/cert-waterlabel.png";
+import certAenor from "@/assets/cert-aenor.png";
+import certNfAfnor from "@/assets/cert-nf-afnor.png";
+import certIso9001 from "@/assets/cert-iso9001.png";
+import certCe from "@/assets/cert-ce.png";
+import certEco from "@/assets/cert-eco.png";
+import certCalidadAmbiental from "@/assets/cert-calidad-ambiental.png";
 
 const certifications = [
   {
     name: "AENOR",
-    logo: "N",
-    image: null,
+    image: certAenor,
     description: "Grifería de cierre automático PN10 conforme a EN 816. Grifería termostática conforme a EN 1111.",
   },
   {
     name: "NF AFNOR",
-    logo: "NF",
-    image: null,
+    image: certNfAfnor,
     description: "Certificación N UNE EN 12541 y EN 15091. Grifería sanitaria y válvulas de cierre automático.",
   },
   {
     name: "ISO 9001",
-    logo: "ISO",
-    image: null,
+    image: certIso9001,
     description: "Calidad Gestión Empresarial certificada para Presto.",
   },
   {
     name: "Marcado CE",
-    logo: "CE",
-    image: null,
+    image: certCe,
     description: "Circuitos conforme con las directivas 1006/95/CE y 2004/108/CE.",
   },
   {
     name: "CTE",
-    logo: "CTE",
     image: certCte,
     description: "Código Técnico de Edificación. Pruebas dimensionales, estanqueidad e hidráulicas.",
   },
   {
     name: "Producto Ecológico",
-    logo: "ECO",
-    image: null,
+    image: certEco,
     description: "Marca de productos con especial ahorro de agua y energía.",
   },
   {
     name: "Calidad Ambiental",
-    logo: "QA",
-    image: null,
+    image: certCalidadAmbiental,
     description: "Sello de Calidad Medio Ambiental de la Generalitat de Cataluña.",
   },
   {
     name: "LEED",
-    logo: "LEED",
     image: certLeed,
     description: "Certificación de edificios sostenibles y eficientes en recursos.",
   },
   {
     name: "BREEAM",
-    logo: "BR",
     image: certBreeam,
     description: "Metodología de evaluación medioambiental de edificios.",
   },
   {
     name: "VERDE",
-    logo: "VR",
     image: certVerde,
     description: "Evaluación de la sostenibilidad ambiental, económica y social del edificio.",
   },
   {
     name: "Waterlabel",
-    logo: "WL",
     image: certWaterlabel,
     description: "Sistema internacional de clasificación para el ahorro de agua.",
   },
@@ -110,15 +105,9 @@ export const CompanyCertifications = () => {
               transition={{ duration: 0.4, delay: index * 0.08 }}
               className="bg-background p-6 border border-border hover:border-primary/30 transition-colors"
             >
-              {cert.image ? (
-                <div className="w-14 h-14 flex items-center justify-center mb-4">
-                  <img src={cert.image} alt={cert.name} className="w-full h-full object-contain" />
-                </div>
-              ) : (
-                <div className="w-14 h-14 bg-primary text-primary-foreground flex items-center justify-center font-display text-sm mb-4">
-                  {cert.logo}
-                </div>
-              )}
+              <div className="w-14 h-14 flex items-center justify-center mb-4">
+                <img src={cert.image} alt={cert.name} className="w-full h-full object-contain" loading="lazy" width={56} height={56} />
+              </div>
               <h3 className="font-display text-xl mb-2">{cert.name}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {cert.description}
