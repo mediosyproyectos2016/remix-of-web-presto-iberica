@@ -1,81 +1,107 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
-import { Download, ExternalLink } from "lucide-react";
+import { Download } from "lucide-react";
+import certAenor from "@/assets/cert-aenor.png";
+import certNf from "@/assets/cert-nf.png";
+import certIso from "@/assets/cert-iso9001.png";
+import certCe from "@/assets/cert-ce.png";
+import certCte from "@/assets/cert-cte.png";
+import certCalidad from "@/assets/cert-calidad-ambiental.png";
+import certBreeam from "@/assets/cert-breeam-new.png";
+import certVerde from "@/assets/cert-verde-new.png";
+import certLeed from "@/assets/cert-leed-new.png";
+import certWaterlabel from "@/assets/cert-waterlabel.png";
+import certEco from "@/assets/cert-eco.png";
 
 const certificaciones = [
   {
     name: "Certificación N AENOR",
+    image: certAenor,
     description: "Grifería de cierre automático PN10 conforme a EN816.",
     downloadUrl: "https://d7rh5s3nxmpy4.cloudfront.net/CMP2288/files/Certificado-AENOR-PRESTO-IBERICA.pdf",
   },
   {
     name: "Certificado N AENOR",
+    image: certAenor,
     description: "Grifería monomando conforme EN817.",
     downloadUrl: "https://d7rh5s3nxmpy4.cloudfront.net/CMP2288/files/Certificado-AENOR-PRESTO-IBERICA-EN817.pdf",
   },
   {
     name: "Certificado N AENOR",
+    image: certAenor,
     description: "Grifería monomando conforme EN817 Alfa.",
     downloadUrl: "https://d7rh5s3nxmpy4.cloudfront.net/CMP2288/files/Certificado-AENOR-PRESTO-IBERICA-EN817-ALFA.pdf",
   },
   {
     name: "Certificación NF AFNOR",
+    image: certNf,
     description: "Grifería de cierre automático PN10 conforme a EN816.",
     downloadUrl: "https://d7rh5s3nxmpy4.cloudfront.net/CMP2288/files/Certificado-NF-AFNOR-PRESTO.pdf",
   },
   {
     name: "Certificado NF AFNOR",
+    image: certNf,
     description: "Grifería termostática conforme EN1111.",
     downloadUrl: "https://d7rh5s3nxmpy4.cloudfront.net/CMP2288/files/Certificado-NF-AFNOR-PRESTO-EN1111.pdf",
   },
   {
     name: "Certificación N UNE EN 12541",
+    image: certAenor,
     description: "Grifería sanitaria.",
     downloadUrl: null,
   },
   {
     name: "Certificación N UNE EN 15091",
+    image: certAenor,
     description: "Grifería sanitaria.",
     downloadUrl: null,
   },
   {
     name: "Certificación ISO 9001",
+    image: certIso,
     description: "Calidad Gestión Empresarial a PRESTO IBÉRICA.",
     downloadUrl: "https://send.saleslayer.com/7631b22a10792c41713c78976ad760f6/ISO_9001_PRESTO_IBERICA_(2025-2028)_ESPAÑOL.pdf",
   },
   {
     name: "Marcado CE Grifería",
+    image: certCe,
     description: "Circuitos conforme con las directivas 2006/95/CE y 2004/108/CE.",
     downloadUrl: "https://d7rh5s3nxmpy4.cloudfront.net/CMP2288/files/1/MARCADO-CE-Griferia-electronica.pdf",
   },
   {
     name: "Certificación Calidad Ambiental",
+    image: certCalidad,
     description: "Sello de Calidad Medio Ambiental de la Generalitat de Cataluña.",
     downloadUrl: "https://send.saleslayer.com/4f4b8019146c4809df9e7d4ddfd7672b/Certificado-calidad-ambiental-cataluña-presto-iberica.pdf",
   },
   {
     name: "CTE",
+    image: certCte,
     description: "Código Técnico de Edificación. Presto realiza pruebas dimensionales, estanqueidad e hidráulicas cumpliendo con el Código Técnico de Edificación.",
     downloadUrl: null,
   },
   {
     name: "BREEAM",
+    image: certBreeam,
     description: "Metodología de evaluación y certificación de la sostenibilidad en la edificación.",
     downloadUrl: null,
   },
   {
     name: "VERDE",
+    image: certVerde,
     description: "Producto ecológico. El sistema de evaluación se basa en un método prestacional, respetando el medio ambiente.",
     downloadUrl: null,
   },
   {
     name: "LEED",
+    image: certLeed,
     description: "Certificación de edificios sostenibles y eficientes.",
     downloadUrl: null,
   },
   {
     name: "Waterlabel",
+    image: certWaterlabel,
     description: "Sistema internacional de clasificación para la medición del consumo de agua de los productos de grifería sanitaria.",
     downloadUrl: null,
   },
@@ -118,6 +144,9 @@ const CertificacionesPage = () => {
                 transition={{ delay: idx * 0.05 }}
                 className="bg-muted/30 rounded-xl p-6 hover:bg-muted/50 transition-colors group flex flex-col"
               >
+                <div className="w-16 h-16 flex items-center justify-center mb-4">
+                  <img src={cert.image} alt={cert.name} className="max-w-full max-h-full object-contain" loading="lazy" width={64} height={64} />
+                </div>
                 <h3 className="text-xl font-display text-primary mb-2">{cert.name}</h3>
                 <p className="text-muted-foreground text-sm mb-4 flex-1">{cert.description}</p>
                 
