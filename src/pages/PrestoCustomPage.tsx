@@ -110,6 +110,7 @@ import faucetRal9016 from "@/assets/ral/faucet-ral-9016.png";
 import faucetRal7045 from "@/assets/ral/faucet-ral-7045.png";
 import faucetRal6037 from "@/assets/ral/faucet-ral-6037.png";
 import faucetRal9005 from "@/assets/ral/faucet-ral-9005.jpg";
+import printPanelAmbiente from "@/assets/ambiente-panel-hexagonal.jpg";
 
 interface Finish {
   id: string;
