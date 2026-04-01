@@ -113,7 +113,6 @@ const menuItems = [
           { label: "Preguntas y Respuestas", href: "/contacto?tab=faq" },
           { label: "Localizador de Tiendas", href: "/contacto?tab=localizador" },
           { label: "Mercados", href: "/contacto?tab=mercados" },
-          { label: "RRSS", href: "/contacto?tab=rrss" },
         ],
       },
     ],
