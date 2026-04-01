@@ -144,6 +144,9 @@ const CertificacionesPage = () => {
                 transition={{ delay: idx * 0.05 }}
                 className="bg-muted/30 rounded-xl p-6 hover:bg-muted/50 transition-colors group flex flex-col"
               >
+                <div className="w-16 h-16 flex items-center justify-center mb-4">
+                  <img src={cert.image} alt={cert.name} className="max-w-full max-h-full object-contain" loading="lazy" width={64} height={64} />
+                </div>
                 <h3 className="text-xl font-display text-primary mb-2">{cert.name}</h3>
                 <p className="text-muted-foreground text-sm mb-4 flex-1">{cert.description}</p>
                 
