@@ -6,66 +6,71 @@ import certVerde from "@/assets/cert-verde.png";
 import certLeed from "@/assets/cert-leed.png";
 import certCte from "@/assets/cert-cte.png";
 import certWaterlabel from "@/assets/cert-waterlabel.png";
-import certAenor from "@/assets/cert-aenor.png";
-import certNfAfnor from "@/assets/cert-nf-afnor.png";
-import certIso9001 from "@/assets/cert-iso9001.png";
-import certCe from "@/assets/cert-ce.png";
-import certEco from "@/assets/cert-eco.png";
-import certCalidadAmbiental from "@/assets/cert-calidad-ambiental.png";
 
 const certifications = [
   {
     name: "AENOR",
-    image: certAenor,
+    logo: "N",
+    image: null as string | null,
     description: "Grifería de cierre automático PN10 conforme a EN 816. Grifería termostática conforme a EN 1111.",
   },
   {
     name: "NF AFNOR",
-    image: certNfAfnor,
+    logo: "NF",
+    image: null as string | null,
     description: "Certificación N UNE EN 12541 y EN 15091. Grifería sanitaria y válvulas de cierre automático.",
   },
   {
     name: "ISO 9001",
-    image: certIso9001,
+    logo: "ISO",
+    image: null as string | null,
     description: "Calidad Gestión Empresarial certificada para Presto.",
   },
   {
     name: "Marcado CE",
-    image: certCe,
+    logo: "CE",
+    image: null as string | null,
     description: "Circuitos conforme con las directivas 1006/95/CE y 2004/108/CE.",
   },
   {
     name: "CTE",
+    logo: "CTE",
     image: certCte,
     description: "Código Técnico de Edificación. Pruebas dimensionales, estanqueidad e hidráulicas.",
   },
   {
     name: "Producto Ecológico",
-    image: certEco,
+    logo: "ECO",
+    image: null as string | null,
     description: "Marca de productos con especial ahorro de agua y energía.",
   },
   {
     name: "Calidad Ambiental",
-    image: certCalidadAmbiental,
+    logo: "QA",
+    image: null as string | null,
     description: "Sello de Calidad Medio Ambiental de la Generalitat de Cataluña.",
   },
   {
     name: "LEED",
+    logo: "LEED",
     image: certLeed,
     description: "Certificación de edificios sostenibles y eficientes en recursos.",
   },
   {
     name: "BREEAM",
+    logo: "BR",
     image: certBreeam,
     description: "Metodología de evaluación medioambiental de edificios.",
   },
   {
     name: "VERDE",
+    logo: "VR",
     image: certVerde,
     description: "Evaluación de la sostenibilidad ambiental, económica y social del edificio.",
   },
   {
     name: "Waterlabel",
+    logo: "WL",
     image: certWaterlabel,
     description: "Sistema internacional de clasificación para el ahorro de agua.",
   },
