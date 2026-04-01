@@ -172,7 +172,6 @@ const finishesByCategory: Record<string, Finish[]> = {
     
     { id: "carbono-claro", name: "Carbono Claro", code: "#B0B0B0", description: "Fibra de carbono en tono claro. Tecnología y diseño en un acabado único.", image: acabadoCarbonoClaro, maintenance: "Paño suave húmedo.", productImage: printCarbonoClaro },
     { id: "carbono", name: "Carbono", code: "#5A5A5A", description: "Fibra de carbono oscuro. Acabado técnico de alto rendimiento.", image: acabadoCarbono, maintenance: "Limpieza suave con agua.", productImage: printCarbono },
-    { id: "camaleon", name: "Camaleón", code: "#5B6D8E", description: "Efecto camaleón con degradado de tonos azul-violeta. Acabado iridiscente único.", image: acabadoCamaleon, maintenance: "Paño de microfibra seco." },
     { id: "catrina", name: "Catrina", code: "#D4317C", description: "Estampado floral tipo catrina mexicana. Arte y color en cada pieza.", image: iconCatrina, maintenance: "Paño suave húmedo.", productImage: printCatrina },
     { id: "espiral", name: "Espiral", code: "#C8A800", description: "Diseño con espirales en negro y dorado. Carácter único y artesanal.", image: iconEspiral, maintenance: "Paño de microfibra seco.", productImage: printEspiral },
     { id: "floral", name: "Floral", code: "#E8453C", description: "Estampado floral colorido. Frescura y alegría en el diseño del grifo.", image: iconFloral, maintenance: "Paño suave húmedo.", productImage: printFloral },
