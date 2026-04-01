@@ -1,7 +1,18 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
-import { Download, ExternalLink } from "lucide-react";
+import { Download } from "lucide-react";
+import certAenor from "@/assets/cert-aenor.png";
+import certNf from "@/assets/cert-nf.png";
+import certIso from "@/assets/cert-iso9001.png";
+import certCe from "@/assets/cert-ce.png";
+import certCte from "@/assets/cert-cte.png";
+import certCalidad from "@/assets/cert-calidad-ambiental.png";
+import certBreeam from "@/assets/cert-breeam-new.png";
+import certVerde from "@/assets/cert-verde-new.png";
+import certLeed from "@/assets/cert-leed-new.png";
+import certWaterlabel from "@/assets/cert-waterlabel.png";
+import certEco from "@/assets/cert-eco.png";
 
 const certificaciones = [
   {

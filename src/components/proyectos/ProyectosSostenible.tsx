@@ -67,10 +67,8 @@ export const ProyectosSostenible = () => {
             transition={{ delay: idx * 0.1 }}
             className="text-center"
           >
-            <div className="w-20 h-20 mx-auto mb-4 border border-border flex items-center justify-center bg-secondary/50">
-              <span className="font-display text-xs text-primary font-semibold tracking-wide">
-                {cert.name}
-              </span>
+            <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+              <img src={cert.image} alt={cert.name} className="max-w-full max-h-full object-contain" loading="lazy" width={80} height={80} />
             </div>
             <h3 className="font-display text-sm font-medium mb-2">
               Certificación<br />{cert.name}
