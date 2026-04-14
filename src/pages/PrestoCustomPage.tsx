@@ -32,6 +32,8 @@ import printGraffiti from "@/assets/ral/print-graffiti.jpg";
 import printMarmolBlanco from "@/assets/ral/print-marmol-blanco.jpg";
 import printMarmolNegro from "@/assets/ral/print-marmol-negro.jpg";
 import printTornasolado from "@/assets/ral/print-tornasolado.jpg";
+import iconTornasolado from "@/assets/ral/icon-tornasolado.jpg";
+import printTornasoladoAmbiente from "@/assets/ral/print-tornasolado-ambiente.jpg";
 import printSerpiente from "@/assets/ral/print-serpiente.jpg";
 import printMarmolNegroAmbiente from "@/assets/ral/print-marmol-negro-ambiente.jpg";
 import printAnimal from "@/assets/ral/print-animal.png";
