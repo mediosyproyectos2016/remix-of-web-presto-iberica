@@ -1,7 +1,10 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
-import { Download, FileText, Image, FileCode, Package, Search, Filter } from "lucide-react";
+import { Download, FileText, Image, FileCode, Package, Search, Filter, ExternalLink } from "lucide-react";
+import logoBimobject from "@/assets/logo-bimobject.jpg";
+import logoBimandco from "@/assets/logo-bimandco.jpg";
+import logoAcae from "@/assets/logo-acae.jpg";
 import { useState } from "react";
 
 const categories = [
@@ -182,16 +185,19 @@ const DescargasPage = () => {
             {[
               {
                 name: "BIM&CO",
+                logo: logoBimandco,
                 description: "Biblioteca de objetos BIM para profesionales de la construcción.",
                 href: "https://www.bimandco.com/es/objetos-bim?search=presto",
               },
               {
                 name: "BIMobject",
+                logo: logoBimobject,
                 description: "Plataforma global de contenido BIM para arquitectos e ingenieros.",
                 href: "https://productsite.bimobject.com/es/prestoiberica/privatecloud/presto-iberica-product-site",
               },
               {
                 name: "ACAE",
+                logo: logoAcae,
                 description: "Asociación de fabricantes con catálogo de productos BIM.",
                 href: "https://www.acae.es/cat/PRE/presto-iberica.html/PRESTO-IBERICA/presto-iberica.html",
               },
@@ -205,16 +211,13 @@ const DescargasPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="group bg-muted/30 rounded-xl p-6 hover:bg-muted/50 transition-colors border border-border/50 hover:border-primary/30"
+                className="group bg-white rounded-xl p-6 hover:shadow-md transition-all border border-border/50 hover:border-primary/30"
               >
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Package className="w-5 h-5 text-primary" />
-                  </div>
-                  <h3 className="font-display text-lg">{platform.name}</h3>
+                <div className="flex items-center justify-center mb-4">
+                  <img src={platform.logo} alt={platform.name} className="h-16 w-auto object-contain" loading="lazy" />
                 </div>
-                <p className="text-muted-foreground text-sm mb-4">{platform.description}</p>
-                <span className="inline-flex items-center gap-1 text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                <p className="text-muted-foreground text-sm mb-4 text-center">{platform.description}</p>
+                <span className="inline-flex items-center justify-center w-full gap-1 text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
                   Visitar plataforma →
                 </span>
               </motion.a>

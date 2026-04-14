@@ -32,6 +32,8 @@ import printGraffiti from "@/assets/ral/print-graffiti.jpg";
 import printMarmolBlanco from "@/assets/ral/print-marmol-blanco.jpg";
 import printMarmolNegro from "@/assets/ral/print-marmol-negro.jpg";
 import printTornasolado from "@/assets/ral/print-tornasolado.jpg";
+import iconTornasolado from "@/assets/ral/icon-tornasolado.jpg";
+import printTornasoladoAmbiente from "@/assets/ral/print-tornasolado-ambiente.jpg";
 import printSerpiente from "@/assets/ral/print-serpiente.jpg";
 import printMarmolNegroAmbiente from "@/assets/ral/print-marmol-negro-ambiente.jpg";
 import printAnimal from "@/assets/ral/print-animal.png";
@@ -183,6 +185,7 @@ const finishesByCategory: Record<string, Finish[]> = {
     { id: "esmerilado", name: "Esmerilado", code: "#5B6EAE", description: "Acabado esmerilado liso en tono azul intenso. Superficie mate uniforme.", image: acabadoEsmerizadoAzul, maintenance: "Paño suave húmedo.", productImage: printEsmerizado },
     
     { id: "dalmata", name: "Dálmata", code: "#FFFFFF", description: "Estampado dálmata blanco y negro. Diseño divertido y atrevido.", image: iconDalmata, maintenance: "Paño suave húmedo.", productImage: printDalmata },
+    { id: "tornasolado", name: "Tornasolado", code: "#5B6EAE", description: "Efecto camaleón con degradado de tonos azul-violeta.", image: iconTornasolado, maintenance: "Paño suave húmedo.", productImage: printTornasoladoAmbiente },
   ],
   laser: [
     { id: "laser-grabado", name: "Grabado láser", code: "#848789", description: "Técnica láser que permite realizar un grabado en un área del grifo, un diseño individual con toque muy personal.", image: productHero, maintenance: "Paño de microfibra seco.", productImage: laserRosa, gallery: [laserRosa, laserRock, laserRocket, laserIdentity, laserAgua, laserNamaste, laserDaisa] },
